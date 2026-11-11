@@ -1,0 +1,160 @@
+protocol_id: owleq-jws-2026-07-v1
+frozen_at: "2026-07-25"
+status: "model-and-budget frozen; primary dataset panel still in capacity screening"
+
+inference:
+  prompt_style: structured_proof
+  reasoning_effort: medium
+  max_output_tokens: 1024
+  structured_output: true
+  tools: disabled
+  temperature: provider_default_or_unsupported
+  primary_repeats: 1
+
+open_weight_candidate:
+  provider: lmstudio
+  model_family: gpt-oss
+  expected_model: gpt-oss-120b
+  runner: "lmstudio:<exact-id-from-preflight>"
+  reasoning_effort: medium
+  max_output_tokens: 1024
+  status: "awaiting server preflight; exact id, revision, quantization and runtime not frozen"
+  token_cost_usd: 0
+  compute_budget: "record wall time, GPU-hours and energy if available"
+
+# Prices are conservative standard synchronous rates in USD per million tokens.
+# They are planning inputs, not a substitute for checking the provider invoice.
+models:
+  - provider: openai
+    model_id: gpt-5.6-terra
+    runner: openai:gpt-5.6-terra
+    tier: capable
+    input_usd_per_mtok: 2.50
+    output_usd_per_mtok: 15.00
+    stability: fixed model id
+  - provider: openai
+    model_id: gpt-5.6-luna
+    runner: openai:gpt-5.6-luna
+    tier: efficient
+    input_usd_per_mtok: 1.00
+    output_usd_per_mtok: 6.00
+    stability: fixed model id
+  - provider: anthropic
+    model_id: claude-opus-4-8
+    runner: anthropic:claude-opus-4-8
+    tier: capable
+    input_usd_per_mtok: 5.00
+    output_usd_per_mtok: 25.00
+    stability: pinned release id
+  - provider: anthropic
+    model_id: claude-sonnet-5
+    runner: anthropic:claude-sonnet-5
+    tier: efficient
+    input_usd_per_mtok: 3.00
+    output_usd_per_mtok: 15.00
+    stability: pinned release id
+  - provider: google
+    model_id: gemini-3.6-flash
+    runner: google:gemini-3.6-flash
+    tier: capable
+    input_usd_per_mtok: 1.50
+    output_usd_per_mtok: 7.50
+    stability: GA; record model_version returned by API
+  - provider: google
+    model_id: gemini-3.5-flash-lite
+    runner: google:gemini-3.5-flash-lite
+    tier: efficient
+    input_usd_per_mtok: 0.30
+    output_usd_per_mtok: 2.50
+    stability: GA; record model_version returned by API
+
+datasets:
+  discovery:
+    - id: cl
+      path: data/certified/cl/benchmark.jsonl
+      source: http://purl.obolibrary.org/obo/cl/cl-basic.owl
+      role: generator_and_cost_calibration_only
+    - id: po
+      path: data/certified/po/benchmark.jsonl
+      source: http://purl.obolibrary.org/obo/po.owl
+      role: generator_and_cost_calibration_only
+  confirmatory_candidates:
+    - id: go
+      source: http://purl.obolibrary.org/obo/go.owl
+      style: OBO
+      role: held_out
+      screened_profile: OWL2_DL
+      el_fragment_required: true
+      source_file_sha256: 6200169cab2fe30be09aac3cf9c96a84e3193b6a3c6d6e0e53dd05bce74e395c
+      source_canonical_sha256: e722f44bf034d326e574f287d05b536b735e1c268665be1b3580fd8d235d8001
+    - id: envo
+      source: http://purl.obolibrary.org/obo/envo.owl
+      style: OBO
+      role: held_out
+      screened_profile: OWL2_DL
+      el_fragment_required: true
+      source_file_sha256: a0b919065d33a9cf975b74cadd16c75f32f512d17f4f6d5999b74216701df54c
+      source_canonical_sha256: 8904ca79e55fea8cffac303e26037715c855e2e356db771f1c82be513f820fc2
+    - id: ssn
+      source: https://www.w3.org/ns/ssn/
+      style: W3C_non_OBO
+      role: external_probe_only
+      primary_decision: rejected_zero_EL_items
+      screened_profile: OWL2_DL
+      el_fragment_required: true
+      source_file_sha256: 184d86189191146e314cc52b1bceb96fca11e70aacbc160d71588102a5153eb9
+      source_canonical_sha256: 938f05129c7d983807d1c53b20c083a6dd9b7981329887918dc1b418d560c6cf
+    - id: saref
+      source: https://saref.etsi.org/core/v4.1.1/
+      style: ETSI_non_OBO
+      role: external_probe_only
+      primary_decision: rejected_primary_capacity_16_base_items
+      screened_profile: OWL2_DL
+      el_fragment_required: true
+      source_file_sha256: 28189acd8cfb49bf6b7e5709275a1162d943576f643b2cffdccfe20cc00ad701
+      source_canonical_sha256: 84fcf00edc5970013ea79e697dd9bdcffae9ab1ae4bbc27e1b5e8353fc8f6a51
+    - id: schemaorg
+      source: https://schema.org/version/30.0/schemaorg-current-https.ttl
+      style: non_OBO_meaningful_IRI
+      role: replacement_candidate
+      screened_profile: NONE_RDFS_source
+      el_fragment_required: true
+      capacity_status: build_pending
+      source_canonical_sha256: 1bc9250626f924e0d075b11b227c59abec924af374079dd531276a1b0e20dc9c
+
+stages:
+  smoke:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    max_orbits_per_dataset: 4
+    primary_repeats: 1
+    repeat_subset_fraction: 0.0
+    extra_repeats: 0
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 5
+  discovery:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    primary_repeats: 1
+    repeat_subset_fraction: 0.0
+    extra_repeats: 0
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 250
+  confirmatory:
+    # Six confirmatory material sources x 200 balanced base items. The two discovery
+    # ontologies are not counted in the confirmatory hypothesis tests.
+    planned_base_items: 1200
+    conditions: [C0, C1, C2, C3, C4, C4S2, C5, C6, C7, C8, C9]
+    mean_input_tokens: 2000
+    primary_repeats: 1
+    repeat_subset_fraction: 0.20
+    extra_repeats: 2
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 2000

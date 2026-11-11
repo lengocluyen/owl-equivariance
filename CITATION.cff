@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "owl-equivariance: OWL semantic-consistency evaluation code and descriptive evidence"
+message: "Please cite the versioned research release; no article DOI or acceptance is asserted."
+type: software
+version: "v33-evidence-2026-11-11"
+date-released: "2026-11-11"
+url: "https://github.com/lengocluyen/owl-equivariance"
+repository-code: "https://github.com/lengocluyen/owl-equivariance"
+authors:
+  - family-names: "Le"
+    given-names: "Ngoc Luyen"
+  - family-names: "Abel"
+    given-names: "Marie-Hélène"
+license: Apache-2.0
+abstract: >-
+  Research code and existing descriptive results for evaluating the semantic
+  consistency of large language models on reasoner-certified OWL contexts.
+  Ontology-derived data retain their upstream licenses. HPO-derived contexts
+  and raw/validated predictions are withheld pending redistribution clarification.
+  Historical regression outputs are excluded evidence.
+keywords:
+  - OWL
+  - ontology
+  - large language models
+  - semantic consistency
+  - explanation validation

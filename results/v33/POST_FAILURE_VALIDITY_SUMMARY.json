@@ -1,0 +1,44 @@
+{
+  "all_api_error_gates_passed": true,
+  "classification": "post_failure_protocol_deviation",
+  "diagnostic_reports": 108,
+  "invalid_response_policy": "retained_and_scored_incorrect",
+  "invalid_responses": 37,
+  "manuscript_disclosure_required": true,
+  "original_gate_failure_retained": true,
+  "preregistered_status": "FAILED_RESPONSE_VALIDITY_GATE",
+  "response_validity_gate_failures": [
+    {
+      "failures": [
+        "C0 invalid-response rate 2.50% exceeds 2.00%"
+      ],
+      "invalid_rate": 0.0022727272727272726,
+      "path": "reports/owleq-jws-2026-08-v33-confirmatory-01/diagnostics/gemma-4-26b-a4b-owleq-v33/eco_/repeats/response_validity.json"
+    },
+    {
+      "failures": [
+        "C0 invalid-response rate 3.33% exceeds 2.00%"
+      ],
+      "invalid_rate": 0.0030303030303030303,
+      "path": "reports/owleq-jws-2026-08-v33-confirmatory-01/diagnostics/gemma-4-26b-a4b-owleq-v33/go_/repeats/response_validity.json"
+    },
+    {
+      "failures": [
+        "C2 invalid-response rate 3.33% exceeds 2.00%"
+      ],
+      "invalid_rate": 0.0030303030303030303,
+      "path": "reports/owleq-jws-2026-08-v33-confirmatory-01/diagnostics/gpt-oss-120b-owleq-v33/envo_/repeats/response_validity.json"
+    },
+    {
+      "failures": [
+        "C0 invalid-response rate 3.33% exceeds 2.00%",
+        "C9 invalid-response rate 3.33% exceeds 2.00%"
+      ],
+      "invalid_rate": 0.006060606060606061,
+      "path": "reports/owleq-jws-2026-08-v33-confirmatory-01/diagnostics/gpt-oss-120b-owleq-v33/go_/repeats/response_validity.json"
+    }
+  ],
+  "responses": 134904,
+  "status": "POST_FAILURE_COLLECTION_COMPLETE",
+  "written_utc": "2026-10-01T07:14:24Z"
+}

@@ -1,0 +1,57 @@
+{
+  "answer_orbit": {
+    "n_orbits": 200,
+    "robust_orbit_accuracy": 0.545,
+    "orbit_consistency": 0.625,
+    "worst_condition": "C7",
+    "worst_condition_accuracy": 0.635,
+    "mean_orbit_degradation": 0.1285,
+    "failure_histogram": {
+      "0": 109,
+      "1": 11,
+      "2": 4,
+      "3": 3,
+      "4": 2,
+      "5": 5,
+      "6": 7,
+      "7": 10,
+      "8": 8,
+      "9": 10,
+      "10": 15,
+      "11": 16
+    },
+    "conditions": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C4S2",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ]
+  },
+  "proof_orbit": {
+    "n_orbits": 100,
+    "proof_validity_orbit_accuracy": 0.14,
+    "support_equivariance_mean": 0.4069775734208608,
+    "n_support_pairs_compared": 680,
+    "n_support_pairs_undefined": 320,
+    "conditions": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C4S2",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ]
+  }
+}

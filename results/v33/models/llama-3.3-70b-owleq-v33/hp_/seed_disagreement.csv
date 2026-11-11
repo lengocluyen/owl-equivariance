@@ -1,0 +1,2 @@
+condition_a,condition_b,n_pairs,disagreement_rate,both_correct,both_wrong,exactly_one_correct
+C4,C4S2,150,0.12,123,9,18

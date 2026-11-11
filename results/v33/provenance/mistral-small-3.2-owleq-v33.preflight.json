@@ -1,0 +1,19 @@
+{
+  "base_url": "http://127.0.0.1:1234/v1",
+  "requested_model": "mistralai/mistral-small-3.2",
+  "weights_sha256": "d476691fb8449395cbf252f998fcec35f9070aa2fa9c6f9e9a549c572160d2a0",
+  "models": [
+    {
+      "id": "mistralai/mistral-small-3.2",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "mistralai",
+      "arch": "llama",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "loaded",
+      "max_context_length": 131072,
+      "loaded_context_length": 16384
+    }
+  ]
+}

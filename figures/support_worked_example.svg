@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="116.4mm" viewBox="0 0 1500 970" role="img" aria-labelledby="support-title support-desc">
+  <title id="support-title">Correct answers and cited evidence</title>
+  <desc id="support-desc">Original schematic example, not observed model outputs. The supplied OWL context contains a1: A subclass of B, a2: B subclass of D, a3: A subclass of C, and a4: C subclass of D. The separate query asks whether A is a subclass of D. Panel a shows the full context. Panels b, c, and d all give the hypothetical answer ENTAILED. Citing only a1 is insufficient. Citing a1 and a2 is sufficient and subset-minimal, as is the different subset a3 and a4. Colored edges in panels b through d are cited axioms; gray edges are present in the context but not cited. Different citation sets can therefore both be valid.</desc>
+  <rect x="0" y="0" width="1500" height="970" fill="#ffffff"/>
+  <g font-family="Arial" fill="#25384a">
+    <text x="24" y="42" font-size="34" font-weight="bold">Correct answers and cited evidence</text>
+    <text x="24" y="77" font-size="28">One entailed query, three possible cited subsets</text>
+  </g>
+
+  <!-- Every panel uses the same diamond graph. The query is not an edge. -->
+  <g fill="#ffffff" stroke="#cbd5df" stroke-width="2">
+    <rect x="24" y="100" width="714" height="382" rx="12"/>
+    <rect x="762" y="100" width="714" height="382" rx="12"/>
+    <rect x="24" y="506" width="714" height="382" rx="12"/>
+    <rect x="762" y="506" width="714" height="382" rx="12"/>
+  </g>
+  <g font-family="Arial" font-size="30" font-weight="bold" fill="#25384a">
+    <text x="48" y="142" data-text-region="40,110,720,155">(a) The supplied context</text>
+    <text x="786" y="142" data-text-region="778,110,1460,155">(b) Correct label, insufficient evidence</text>
+    <text x="48" y="548" data-text-region="40,516,720,561">(c) A sufficient cited subset</text>
+    <text x="786" y="548" data-text-region="778,516,1460,561">(d) A different sufficient subset</text>
+  </g>
+
+  <!-- Panel a: all four supplied axioms. -->
+  <g stroke="#315c8a" stroke-width="5" fill="none">
+    <line x1="113" y1="272" x2="201" y2="221"/>
+    <line x1="251" y1="216" x2="339" y2="267"/>
+    <line x1="113" y1="296" x2="201" y2="347"/>
+    <line x1="251" y1="352" x2="339" y2="301"/>
+  </g>
+  <g fill="#315c8a">
+    <polygon points="209,216 192,218 200,232"/>
+    <polygon points="347,272 338,257 330,271"/>
+    <polygon points="209,352 200,337 192,351"/>
+    <polygon points="347,296 330,298 338,312"/>
+  </g>
+  <g fill="#f3f7fb" stroke="#315c8a" stroke-width="2.5">
+    <circle cx="92" cy="284" r="24"/>
+    <circle cx="230" cy="204" r="24"/>
+    <circle cx="230" cy="364" r="24"/>
+    <circle cx="368" cy="284" r="24"/>
+  </g>
+  <g font-family="Arial" font-size="30" fill="#25384a" text-anchor="middle">
+    <text x="92" y="294">A</text><text x="230" y="214">B</text>
+    <text x="230" y="374">C</text><text x="368" y="294">D</text>
+    <text x="148" y="232">a1</text><text x="312" y="232">a2</text>
+    <text x="148" y="356">a3</text><text x="312" y="356">a4</text>
+  </g>
+  <line x1="60" y1="408" x2="402" y2="408" stroke="#cbd5df" stroke-width="2"/>
+  <text x="230" y="451" text-anchor="middle" font-family="Segoe UI Symbol" font-size="30" fill="#25384a">Query: A ⊑ D</text>
+  <g font-family="Arial" font-size="28" fill="#25384a" data-text-region="424,178,720,460">
+    <text x="432" y="225" font-weight="bold">Target: ENTAILED</text>
+    <text x="432" y="274">Two complete routes</text>
+    <text x="432" y="311">connect A to D.</text>
+    <text x="432" y="374">Each edge is a</text>
+    <text x="432" y="411">supplied axiom.</text>
+  </g>
+
+  <!-- Panel b: only a1 is cited; all other axioms remain visible but uncited. -->
+  <g stroke="#7b8794" stroke-width="3" fill="none">
+    <line x1="989" y1="216" x2="1077" y2="267"/>
+    <line x1="851" y1="296" x2="939" y2="347"/>
+    <line x1="989" y1="352" x2="1077" y2="301"/>
+  </g>
+  <g fill="#7b8794">
+    <polygon points="1085,272 1076,257 1068,271"/>
+    <polygon points="947,352 938,337 930,351"/>
+    <polygon points="1085,296 1068,298 1076,312"/>
+  </g>
+  <line x1="851" y1="272" x2="939" y2="221" stroke="#b65c16" stroke-width="7"/>
+  <polygon points="947,216 930,218 938,232" fill="#b65c16"/>
+  <g fill="#ffffff" stroke="#536579" stroke-width="2.5">
+    <circle cx="830" cy="284" r="24"/>
+    <circle cx="968" cy="204" r="24"/>
+    <circle cx="968" cy="364" r="24"/>
+    <circle cx="1106" cy="284" r="24"/>
+  </g>
+  <g font-family="Arial" font-size="30" fill="#25384a" text-anchor="middle">
+    <text x="830" y="294">A</text><text x="968" y="214">B</text>
+    <text x="968" y="374">C</text><text x="1106" y="294">D</text>
+    <text x="886" y="232" fill="#a34c0a" font-weight="bold">a1</text>
+    <text x="1050" y="232">a2</text><text x="886" y="356">a3</text><text x="1050" y="356">a4</text>
+  </g>
+  <line x1="798" y1="408" x2="1140" y2="408" stroke="#cbd5df" stroke-width="2"/>
+  <text x="968" y="451" text-anchor="middle" font-family="Segoe UI Symbol" font-size="30" fill="#25384a">Query: A ⊑ D</text>
+  <g font-family="Arial" font-size="28" fill="#25384a" data-text-region="1162,178,1460,460">
+    <text x="1170" y="225">Answer: ENTAILED</text>
+    <text x="1170" y="269" font-weight="bold">Cites: {a1}</text>
+    <text x="1170" y="325" fill="#a34c0a" font-weight="bold">INSUFFICIENT</text>
+    <text x="1170" y="374">a1 alone does not</text>
+    <text x="1170" y="411">entail the query.</text>
+  </g>
+
+  <!-- Panel c: a1 and a2 form one subset-minimal justification. -->
+  <g stroke="#7b8794" stroke-width="3" fill="none">
+    <line x1="113" y1="702" x2="201" y2="753"/>
+    <line x1="251" y1="758" x2="339" y2="707"/>
+  </g>
+  <g fill="#7b8794">
+    <polygon points="209,758 200,743 192,757"/>
+    <polygon points="347,702 330,704 338,718"/>
+  </g>
+  <g stroke="#0077bb" stroke-width="7" fill="none">
+    <line x1="113" y1="678" x2="201" y2="627"/>
+    <line x1="251" y1="622" x2="339" y2="673"/>
+  </g>
+  <g fill="#0077bb">
+    <polygon points="209,622 192,624 200,638"/>
+    <polygon points="347,678 338,663 330,677"/>
+  </g>
+  <g fill="#ffffff" stroke="#536579" stroke-width="2.5">
+    <circle cx="92" cy="690" r="24"/>
+    <circle cx="230" cy="610" r="24"/>
+    <circle cx="230" cy="770" r="24"/>
+    <circle cx="368" cy="690" r="24"/>
+  </g>
+  <g font-family="Arial" font-size="30" fill="#25384a" text-anchor="middle">
+    <text x="92" y="700">A</text><text x="230" y="620">B</text>
+    <text x="230" y="780">C</text><text x="368" y="700">D</text>
+    <text x="148" y="638" fill="#00659f" font-weight="bold">a1</text>
+    <text x="312" y="638" fill="#00659f" font-weight="bold">a2</text>
+    <text x="148" y="762">a3</text><text x="312" y="762">a4</text>
+  </g>
+  <line x1="60" y1="814" x2="402" y2="814" stroke="#cbd5df" stroke-width="2"/>
+  <text x="230" y="857" text-anchor="middle" font-family="Segoe UI Symbol" font-size="30" fill="#25384a">Query: A ⊑ D</text>
+  <g font-family="Arial" font-size="28" fill="#25384a" data-text-region="424,584,720,866">
+    <text x="432" y="631">Answer: ENTAILED</text>
+    <text x="432" y="675" font-weight="bold">Cites: {a1, a2}</text>
+    <text x="432" y="731" fill="#00659f" font-weight="bold">VALID SUPPORT</text>
+    <text x="432" y="780">Subset-minimal:</text>
+    <text x="432" y="817">both axioms needed.</text>
+  </g>
+
+  <!-- Panel d: a3 and a4 form an equally valid but disjoint justification. -->
+  <g stroke="#7b8794" stroke-width="3" fill="none">
+    <line x1="851" y1="678" x2="939" y2="627"/>
+    <line x1="989" y1="622" x2="1077" y2="673"/>
+  </g>
+  <g fill="#7b8794">
+    <polygon points="947,622 930,624 938,638"/>
+    <polygon points="1085,678 1076,663 1068,677"/>
+  </g>
+  <g stroke="#008577" stroke-width="7" fill="none">
+    <line x1="851" y1="702" x2="939" y2="753"/>
+    <line x1="989" y1="758" x2="1077" y2="707"/>
+  </g>
+  <g fill="#008577">
+    <polygon points="947,758 938,743 930,757"/>
+    <polygon points="1085,702 1068,704 1076,718"/>
+  </g>
+  <g fill="#ffffff" stroke="#536579" stroke-width="2.5">
+    <circle cx="830" cy="690" r="24"/>
+    <circle cx="968" cy="610" r="24"/>
+    <circle cx="968" cy="770" r="24"/>
+    <circle cx="1106" cy="690" r="24"/>
+  </g>
+  <g font-family="Arial" font-size="30" fill="#25384a" text-anchor="middle">
+    <text x="830" y="700">A</text><text x="968" y="620">B</text>
+    <text x="968" y="780">C</text><text x="1106" y="700">D</text>
+    <text x="886" y="638">a1</text><text x="1050" y="638">a2</text>
+    <text x="886" y="762" fill="#006f64" font-weight="bold">a3</text>
+    <text x="1050" y="762" fill="#006f64" font-weight="bold">a4</text>
+  </g>
+  <line x1="798" y1="814" x2="1140" y2="814" stroke="#cbd5df" stroke-width="2"/>
+  <text x="968" y="857" text-anchor="middle" font-family="Segoe UI Symbol" font-size="30" fill="#25384a">Query: A ⊑ D</text>
+  <g font-family="Arial" font-size="28" fill="#25384a" data-text-region="1162,584,1460,866">
+    <text x="1170" y="631">Answer: ENTAILED</text>
+    <text x="1170" y="675" font-weight="bold">Cites: {a3, a4}</text>
+    <text x="1170" y="731" fill="#006f64" font-weight="bold">VALID SUPPORT</text>
+    <text x="1170" y="780">Subset-minimal:</text>
+    <text x="1170" y="817">a different route.</text>
+  </g>
+
+  <g font-family="Arial" font-size="28" fill="#25384a">
+    <text x="24" y="925">Panels (b)-(d): colored edges are cited; gray edges are present but not cited.</text>
+    <text x="24" y="961">Schematic responses, not observed model outputs.</text>
+  </g>
+</svg>

@@ -1,0 +1,297 @@
+{
+  "source": "data/certified_v33/foodon/benchmark.jsonl",
+  "source_sha256": "78cbbf1701a61ca5b95d82f203e5f935c223b5a9f2f0775b4ea80b0b59e01061",
+  "output": "data/certified_v33/foodon/owleq-jws-2026-08-v33-confirmatory-01.repeat-subset.jsonl",
+  "output_sha256": "9222b929dd5f5a8cd329a1116a7fddd1bd4893de0564e82989a229077d007763",
+  "seed": 20260725,
+  "fraction": 0.2,
+  "available_orbits": 150,
+  "selected_orbits": 30,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C4S2",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "selected_base_item_ids": [
+    "foodon:ATOMIC_SUBSUMPTION:0833032800b31619",
+    "foodon:ATOMIC_SUBSUMPTION:09f6e4d7e88af5be",
+    "foodon:ATOMIC_SUBSUMPTION:14a1bcab5cf6babb",
+    "foodon:ATOMIC_SUBSUMPTION:1ed5b0056644cc3b",
+    "foodon:ATOMIC_SUBSUMPTION:2fba8ee0593781ae",
+    "foodon:ATOMIC_SUBSUMPTION:30fabf4701132479",
+    "foodon:ATOMIC_SUBSUMPTION:49ab4f514f809312",
+    "foodon:ATOMIC_SUBSUMPTION:4b5ef0bb7e0218d0",
+    "foodon:ATOMIC_SUBSUMPTION:513cdbf5d9793cb3",
+    "foodon:ATOMIC_SUBSUMPTION:5bef7f494437b927",
+    "foodon:ATOMIC_SUBSUMPTION:5e68270407ea9663",
+    "foodon:ATOMIC_SUBSUMPTION:5e7d0fd20feebfde",
+    "foodon:ATOMIC_SUBSUMPTION:6998a807fed82e29",
+    "foodon:ATOMIC_SUBSUMPTION:6d1473eaa04162e1",
+    "foodon:ATOMIC_SUBSUMPTION:6e152001eb93a5fa",
+    "foodon:ATOMIC_SUBSUMPTION:6f71f1cab263ce09",
+    "foodon:ATOMIC_SUBSUMPTION:7a34704c50f85a04",
+    "foodon:ATOMIC_SUBSUMPTION:7eaec4dfa45acb90",
+    "foodon:ATOMIC_SUBSUMPTION:7fa034f5f5164497",
+    "foodon:ATOMIC_SUBSUMPTION:8a33ea2600d72b2d",
+    "foodon:ATOMIC_SUBSUMPTION:98d9019f61036c65",
+    "foodon:ATOMIC_SUBSUMPTION:b27769362e326491",
+    "foodon:ATOMIC_SUBSUMPTION:bc4c42b61ff04c1e",
+    "foodon:ATOMIC_SUBSUMPTION:e2d66936124cada4",
+    "foodon:ATOMIC_SUBSUMPTION:e30b159ae2e2fb8e",
+    "foodon:ATOMIC_SUBSUMPTION:e77ad972147f9aa3",
+    "foodon:ATOMIC_SUBSUMPTION:ee991dedf8434e2f",
+    "foodon:ATOMIC_SUBSUMPTION:f7dd73f361d28e35",
+    "foodon:ATOMIC_SUBSUMPTION:fcec21bea6d81573",
+    "foodon:ATOMIC_SUBSUMPTION:fdd4eb047e51fa02"
+  ],
+  "strata": [
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 14,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 16,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 18,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 24,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 26,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 12,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 13,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 11,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 8,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 14,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 16,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 18,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 24,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 26,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 12,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 13,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 11,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 8,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "foodon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    }
+  ]
+}

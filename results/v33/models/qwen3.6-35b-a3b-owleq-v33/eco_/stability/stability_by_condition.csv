@@ -1,0 +1,12 @@
+model,condition,n_items,complete_items,all_valid_rate,unanimous_label_rate,unanimous_valid_label_rate,per_response_accuracy,per_response_invalid_rate,majority_vote_accuracy
+qwen3.6-35b-a3b-owleq-v33,C0,40,40,1.0,0.975,0.975,0.7833333333333333,0.0,0.775
+qwen3.6-35b-a3b-owleq-v33,C1,40,40,1.0,0.95,0.95,0.75,0.0,0.75
+qwen3.6-35b-a3b-owleq-v33,C2,40,40,1.0,1.0,1.0,0.65,0.0,0.65
+qwen3.6-35b-a3b-owleq-v33,C3,40,40,1.0,0.925,0.925,0.7083333333333334,0.0,0.7
+qwen3.6-35b-a3b-owleq-v33,C4,40,40,1.0,0.975,0.975,0.6666666666666666,0.0,0.675
+qwen3.6-35b-a3b-owleq-v33,C4S2,40,40,1.0,1.0,1.0,0.625,0.0,0.625
+qwen3.6-35b-a3b-owleq-v33,C5,40,40,1.0,0.975,0.975,0.6333333333333333,0.0,0.625
+qwen3.6-35b-a3b-owleq-v33,C6,40,40,1.0,0.975,0.975,0.6583333333333333,0.0,0.65
+qwen3.6-35b-a3b-owleq-v33,C7,40,40,1.0,0.975,0.975,0.6416666666666667,0.0,0.65
+qwen3.6-35b-a3b-owleq-v33,C8,40,40,1.0,0.95,0.95,0.6833333333333333,0.0,0.7
+qwen3.6-35b-a3b-owleq-v33,C9,40,40,1.0,1.0,1.0,0.625,0.0,0.625

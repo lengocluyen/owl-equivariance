@@ -1,0 +1,12 @@
+{
+  "status": "POST_FAILURE_COLLECTION_COMPLETE",
+  "protocol_id": "owleq-jws-2026-08-v33",
+  "run_id": "owleq-jws-2026-08-v33-confirmatory-01",
+  "stage": "confirmatory",
+  "started_utc": "2026-09-07T16:17:33Z",
+  "finished_utc": "2026-10-01T07:14:39Z",
+  "classification": "post_failure_protocol_deviation",
+  "original_gate_failure_retained": true,
+  "preregistered_status": "FAILED_RESPONSE_VALIDITY_GATE",
+  "manuscript_disclosure_required": true
+}

@@ -1,0 +1,22 @@
+{
+  "base_url": "http://127.0.0.1:1234/v1",
+  "requested_model": "openai/gpt-oss-20b",
+  "weights_sha256": "beba7be1c0c58cc47c1bb4bf25aca312e23a3f6d987ce264a5faa034dd0ceb5b",
+  "models": [
+    {
+      "id": "openai/gpt-oss-20b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "openai",
+      "arch": "gpt-oss",
+      "compatibility_type": "gguf",
+      "quantization": "MXFP4",
+      "state": "loaded",
+      "max_context_length": 131072,
+      "loaded_context_length": 16384,
+      "capabilities": [
+        "tool_use"
+      ]
+    }
+  ]
+}

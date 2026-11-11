@@ -1,0 +1,7 @@
+model,answer_accuracy,robust_orbit_accuracy,proof_valid_orbit_accuracy
+Gemma,0.876027,0.531507,0.123288
+Llama,0.860648,0.500000,0.146575
+Mistral,0.819178,0.674658,0.115068
+GPT-OSS-120B,0.696575,0.509589,0.039726
+Qwen,0.677709,0.509589,0.041096
+GPT-OSS-20B,0.568804,0.474658,0.004110

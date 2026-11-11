@@ -1,0 +1,167 @@
+{
+  "data": [
+    {
+      "id": "google/gemma-4-26b-a4b",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "google",
+      "arch": "gemma4",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "loaded",
+      "max_context_length": 262144,
+      "loaded_context_length": 16384,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-llama-8b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "deepseek",
+      "arch": "llama",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 131072
+    },
+    {
+      "id": "deepseek/deepseek-r1-distill-qwen-32b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "deepseek",
+      "arch": "qwen2",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 131072
+    },
+    {
+      "id": "baidu/ernie-4.5-21b-a3b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "baidu",
+      "arch": "ernie4_5-moe",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 131072
+    },
+    {
+      "id": "microsoft/phi-4-reasoning-plus",
+      "object": "model",
+      "type": "llm",
+      "publisher": "microsoft",
+      "arch": "phi3",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 32768
+    },
+    {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "qwen",
+      "arch": "qwen35moe",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 262144,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "llama-4-scout-17b-16e-instruct",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "lmstudio-community",
+      "arch": "llama4",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 10485760,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "meta/llama-3.3-70b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "meta",
+      "arch": "llama",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 131072,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "mistralai/mistral-small-3.2",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "mistralai",
+      "arch": "llama",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 131072
+    },
+    {
+      "id": "microsoft/phi-4",
+      "object": "model",
+      "type": "llm",
+      "publisher": "microsoft",
+      "arch": "phi3",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 16384
+    },
+    {
+      "id": "openai/gpt-oss-120b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "openai",
+      "arch": "gpt-oss",
+      "compatibility_type": "gguf",
+      "quantization": "MXFP4",
+      "state": "not-loaded",
+      "max_context_length": 131072,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "openai/gpt-oss-20b",
+      "object": "model",
+      "type": "llm",
+      "publisher": "openai",
+      "arch": "gpt-oss",
+      "compatibility_type": "gguf",
+      "quantization": "MXFP4",
+      "state": "not-loaded",
+      "max_context_length": 131072,
+      "capabilities": [
+        "tool_use"
+      ]
+    },
+    {
+      "id": "text-embedding-nomic-embed-text-v1.5",
+      "object": "model",
+      "type": "embeddings",
+      "publisher": "nomic-ai",
+      "arch": "nomic-bert",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "not-loaded",
+      "max_context_length": 2048
+    }
+  ],
+  "object": "list"
+}

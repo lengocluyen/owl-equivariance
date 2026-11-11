@@ -1,0 +1,499 @@
+{
+  "analysis": {
+    "power": {
+      "frozen_from_discovery_only": true,
+      "minimum_simulated_power": 0.8,
+      "planned_base_items": 1320,
+      "posthoc_confirmatory_power_forbidden": true
+    },
+    "primary": {
+      "family": "binomial",
+      "fixed_effects": [
+        "condition",
+        "task_type",
+        "proof_depth_z",
+        "context_axioms_z",
+        "token_delta_z"
+      ],
+      "implementation": "lme4_glmer_laplace",
+      "link": "logit",
+      "multiplicity": "holm_within_condition_family",
+      "outcome": "correct",
+      "per_model_fits": true,
+      "pooled_condition_by_model_interaction": true,
+      "random_intercepts": [
+        "ontology_id",
+        "ontology_id:base_item_id"
+      ],
+      "reference_condition": "C0"
+    },
+    "response_validity": {
+      "otherwise_same_as_primary": true,
+      "outcome": "parsed"
+    },
+    "sensitivity": [
+      {
+        "cluster": "ontology_id:base_item_id",
+        "estimator": "gee",
+        "ontology": "fixed_effect"
+      },
+      {
+        "approximation": "variational",
+        "estimator": "bayes_mixed",
+        "random_intercepts": [
+          "ontology_id",
+          "ontology_id:base_item_id"
+        ]
+      }
+    ]
+  },
+  "confirmatory_outcomes_inspected": false,
+  "criteria": {
+    "build_checkpoint_required": true,
+    "excluded_ontology_ids": [
+      "cl",
+      "po",
+      "toy"
+    ],
+    "minimum_base_items_per_source": 150,
+    "minimum_sources": 8,
+    "minimum_total_base_items": 1320,
+    "panel_file_required": true,
+    "required_candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+    "required_certifier_version": "0.2.0",
+    "required_conditions": [
+      "C0",
+      "C1",
+      "C2",
+      "C3",
+      "C4",
+      "C4S2",
+      "C5",
+      "C6",
+      "C7",
+      "C8",
+      "C9"
+    ],
+    "required_justification_algorithm": "QUICKXPLAIN",
+    "required_justification_call_budget": 256
+  },
+  "freeze_basis": "capacity, certification, source diversity, and deterministic generator runtime diagnostics only; no confirmatory model outcomes",
+  "frozen_at_utc": "2026-08-29T07:30:19+00:00",
+  "manifest": "configs/open_weight_experiment_v33.yaml",
+  "manifest_sha256": "bac8ae15ec4d6a514b6d4fc42fa97c3b0fdbb91a65f6ec608935e76dc148fdbb",
+  "protocol_id": "owleq-jws-2026-08-v33",
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "base_items": 200,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "913c1796c4ed5c6e4829a3c4b8ff019831e56d08704fe30333efab0c76e330dc",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "005008e5d0554eb0b8d40edd97f78c59f54232966a4b75875a49c45ba72f3641",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "1bee9bf32f6d115e1c332b5a95c22ef11c2a4ec8b87a0139136ff21d08f76339",
+      "inferred_candidates_enumerated": 30738,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 1499,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 5963,
+      "justification_reasoner_calls": 5963,
+      "label_counts": {
+        "ENTAILED": 100,
+        "NOT_ENTAILED": 100
+      },
+      "ontology_id": "eco",
+      "ontology_source_hash": "9416df437717bf2e1c67100e9d0566ac9d40e3c2a7ac7ecd784ba74b2f4cfd8a",
+      "ontology_version": "eco-v2026-07-10",
+      "path": "data/certified_v33/eco/benchmark.jsonl",
+      "positive_candidates_examined": 259,
+      "rows": 2200,
+      "source_canonical_sha256": "9416df437717bf2e1c67100e9d0566ac9d40e3c2a7ac7ecd784ba74b2f4cfd8a",
+      "source_file_sha256": "3cd12afd4668455a8d441fcff70592be234e1547d0443ac0631fadf5c95ead2c",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 200
+      }
+    },
+    {
+      "base_items": 150,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "41fee09609ebed5ebe00c72831885365d236fdb23af3a5b60414970164ed89ae",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "d8d2656654a5e1010638326aa4e458c8c99281e1412df6fcbce4a7554cea1ceb",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "77cd28a1326a13a6ba4f88b00b4cb5b4a8852f915527b6e5c7e864e657e2e799",
+      "inferred_candidates_enumerated": 61464,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 9779,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 35167,
+      "justification_reasoner_calls": 35167,
+      "label_counts": {
+        "ENTAILED": 75,
+        "NOT_ENTAILED": 75
+      },
+      "ontology_id": "envo",
+      "ontology_source_hash": "857914bf41cd19c35a0114fbca66ac02572dc28939048e24913252bd92f4d021",
+      "ontology_version": "envo-frozen-a0b91906",
+      "path": "data/certified_v33/envo/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1650,
+      "source_canonical_sha256": "857914bf41cd19c35a0114fbca66ac02572dc28939048e24913252bd92f4d021",
+      "source_file_sha256": "a0b919065d33a9cf975b74cadd16c75f32f512d17f4f6d5999b74216701df54c",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 150
+      }
+    },
+    {
+      "base_items": 150,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "1ed6f2aa1fe3e2ee9d37bef62130868d05f1159537dfcee590af1fe683277aaa",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "0ca5e8c1b333e81d5d1168654b99c36ddfe7b8bd810a697a371ddb2f3e71af68",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "78cbbf1701a61ca5b95d82f203e5f935c223b5a9f2f0775b4ea80b0b59e01061",
+      "inferred_candidates_enumerated": 434430,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 2413,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 16957,
+      "justification_reasoner_calls": 16957,
+      "label_counts": {
+        "ENTAILED": 75,
+        "NOT_ENTAILED": 75
+      },
+      "ontology_id": "foodon",
+      "ontology_source_hash": "9a5f3dc5a7c878af5cfd3b6b42ee98de4762a0a90265196fccd3ae7ce6fbc4d7",
+      "ontology_version": "foodon-v2025-07-31",
+      "path": "data/certified_v33/foodon/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1650,
+      "source_canonical_sha256": "9a5f3dc5a7c878af5cfd3b6b42ee98de4762a0a90265196fccd3ae7ce6fbc4d7",
+      "source_file_sha256": "432286e2ddd33c1c6c68cd69fbaa5227c66dee2402d038ffe35aad04e2453849",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 150
+      }
+    },
+    {
+      "base_items": 150,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "6cc3069a8eaa1bd0f5e1e9c053361165dea65398f618353c30810c49dc53438e",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "b6f6c3eeedeae35425351151d7597eceeba04763ca47172ed4983d764469a5f0",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "96c097c6b34c6e4ad67c34371cf00939ed1607e18e23eaee00bc14395c363efa",
+      "inferred_candidates_enumerated": 299870,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 4082,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 16256,
+      "justification_reasoner_calls": 16256,
+      "label_counts": {
+        "ENTAILED": 75,
+        "NOT_ENTAILED": 75
+      },
+      "ontology_id": "go",
+      "ontology_source_hash": "c5512f859fd2105918840dce0b021817782ad5999ef632e2ab24def8e180d123",
+      "ontology_version": "go-frozen-6200169c",
+      "path": "data/certified_v33/go/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1650,
+      "source_canonical_sha256": "c5512f859fd2105918840dce0b021817782ad5999ef632e2ab24def8e180d123",
+      "source_file_sha256": "6200169cab2fe30be09aac3cf9c96a84e3193b6a3c6d6e0e53dd05bce74e395c",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 150
+      }
+    },
+    {
+      "base_items": 150,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "b15e12479162760a2ff26affc605b27ea9f7f7b134e91add8e0e65344ed24fb4",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "465d57934b8854963ceb4e436aa67d822d2a2a7505a0d4d3d50adc9f3161b3d3",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "55dff84b22e37bb486d154f32f7b6d3bc89befaca7f406635c9dc43faccc1f79",
+      "inferred_candidates_enumerated": 178671,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 4915,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 18021,
+      "justification_reasoner_calls": 18021,
+      "label_counts": {
+        "ENTAILED": 75,
+        "NOT_ENTAILED": 75
+      },
+      "ontology_id": "hp",
+      "ontology_source_hash": "362df8c56cc02cdeaae164f68f3fd3ed1a40bc5400345d2bb36e91a97b2ebb98",
+      "ontology_version": "hp-v2026-06-23",
+      "path": "data/certified_v33/hp/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1650,
+      "source_canonical_sha256": "362df8c56cc02cdeaae164f68f3fd3ed1a40bc5400345d2bb36e91a97b2ebb98",
+      "source_file_sha256": "8aab8c4d7f11189def5d4e64c17190dfc90a495fe9f49a451ea2caefc174e153",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 150
+      }
+    },
+    {
+      "base_items": 200,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "4e8eba9eed896f4e00483491860a71ddd435c6f4f41a94217030558c7fa5eb66",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "c0c12d31595b9fb4767db220eb61a6c8c3c6549510fe6fc09036de357b827016",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "3dc2fae213f01fb077fc4c4df723326a6d998b5963389e279d2fd13c6072ea3f",
+      "inferred_candidates_enumerated": 379547,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 1319,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 5377,
+      "justification_reasoner_calls": 5377,
+      "label_counts": {
+        "ENTAILED": 100,
+        "NOT_ENTAILED": 100
+      },
+      "ontology_id": "mondo",
+      "ontology_source_hash": "b0ecfb3be89acce3940a845f4a433a796c184b3819514031b7a687d0936c7aa6",
+      "ontology_version": "mondo-v2026-07-06",
+      "path": "data/certified_v33/mondo/benchmark.jsonl",
+      "positive_candidates_examined": 268,
+      "rows": 2200,
+      "source_canonical_sha256": "b0ecfb3be89acce3940a845f4a433a796c184b3819514031b7a687d0936c7aa6",
+      "source_file_sha256": "5574e720226dcc6e0140707f1d34eb283134656b814062c2fa6ede8f161473a0",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 200
+      }
+    },
+    {
+      "base_items": 150,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "15eaa99cfbef938b8d14dd9a2a814964edfadac2389921a94c46506843112f4a",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "fc83f8f6de0a4ad78d4322f789fbbbbb873309bbd83a2ae1ca345e81188a9bab",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "deaf7b3d5b25ed1caf1b77b4b7c2abd3b11c0ec66ad8c50a5eb0086c40d99ae9",
+      "inferred_candidates_enumerated": 21999,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 6446,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 20822,
+      "justification_reasoner_calls": 20822,
+      "label_counts": {
+        "ENTAILED": 75,
+        "NOT_ENTAILED": 75
+      },
+      "ontology_id": "obi",
+      "ontology_source_hash": "054960c9fd3198518240dbc5fc6ce4dcc47ad4ebded94ceba09d41cfb8972052",
+      "ontology_version": "obi-v2026-07-27",
+      "path": "data/certified_v33/obi/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1650,
+      "source_canonical_sha256": "054960c9fd3198518240dbc5fc6ce4dcc47ad4ebded94ceba09d41cfb8972052",
+      "source_file_sha256": "8874abcca971ee26b4e4442198387916d788d14af3519e1040474908ed12b946",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 150
+      }
+    },
+    {
+      "base_items": 150,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "85d17ebb729d66ce288fdd23a7a213389b35fa20e912b99891d457b7fa64b3d0",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "10e77d6d7fd69f7e4b6cbd5851ac452104169b121b686dd529995f39f970a3da",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "9341ffa16b37ce81cf51c4bfe879544c7011adaedeb7bc23a874430b3c7f62b0",
+      "inferred_candidates_enumerated": 12563,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 1459,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 11049,
+      "justification_reasoner_calls": 11049,
+      "label_counts": {
+        "ENTAILED": 75,
+        "NOT_ENTAILED": 75
+      },
+      "ontology_id": "so",
+      "ontology_source_hash": "e133f467e570f52ad0ef2ee281fb1d8b7bafd35d2abfedd8ce459c9e862e89c1",
+      "ontology_version": "so-v2026-08-07",
+      "path": "data/certified_v33/so/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1650,
+      "source_canonical_sha256": "e133f467e570f52ad0ef2ee281fb1d8b7bafd35d2abfedd8ce459c9e862e89c1",
+      "source_file_sha256": "28d19f7767d8848ceb9088658079ede9b467f4ee95205220520229a45582c6aa",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 150
+      }
+    },
+    {
+      "base_items": 160,
+      "bounded_candidate_pool_size": 800,
+      "build_checkpoint_sha256": "9a4219e1e6f1218bc3b6640c4dcbd479645ef3dc1314970b11d4eb420aeae42c",
+      "build_checkpoint_status": "COMPLETE",
+      "build_report_sha256": "e0aa163f0b8b32521bd70177e64a953128febc689b39722b972db63e93ff6285",
+      "candidate_sampling": "SEEDED_SHA256_BOTTOM_K",
+      "certifier_version": "0.2.0",
+      "conditions": [
+        "C0",
+        "C1",
+        "C2",
+        "C3",
+        "C4",
+        "C4S2",
+        "C5",
+        "C6",
+        "C7",
+        "C8",
+        "C9"
+      ],
+      "dataset_sha256": "478ff2d2b6e122e3b589022fe584b383fbbf3dbf8c55dc471f3935c9b5bb81ba",
+      "inferred_candidates_enumerated": 299072,
+      "justification_algorithm": "QUICKXPLAIN",
+      "justification_budget_exhausted_candidates": 0,
+      "justification_cache_hits": 19826,
+      "justification_call_budget_per_candidate": 256,
+      "justification_reasoner_builds": 62080,
+      "justification_reasoner_calls": 62080,
+      "label_counts": {
+        "ENTAILED": 80,
+        "NOT_ENTAILED": 80
+      },
+      "ontology_id": "uberon",
+      "ontology_source_hash": "6e2879b65b67c80fcd6b482b6094d4049172f24becf501c9ea3c726dac98c6c8",
+      "ontology_version": "uberon-v2026-06-23",
+      "path": "data/certified_v33/uberon/benchmark.jsonl",
+      "positive_candidates_examined": 800,
+      "rows": 1760,
+      "source_canonical_sha256": "6e2879b65b67c80fcd6b482b6094d4049172f24becf501c9ea3c726dac98c6c8",
+      "source_file_sha256": "938f51e7c3fc9fcbe5a2863eb346da8033737e568af5836958891c4c6bfb1192",
+      "task_counts": {
+        "ATOMIC_SUBSUMPTION": 160
+      }
+    }
+  ],
+  "status": "FROZEN",
+  "totals": {
+    "base_items": 1460,
+    "rows": 16060,
+    "sources": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "base_url": "http://127.0.0.1:1234/v1",
+  "requested_model": "qwen/qwen3.6-35b-a3b",
+  "weights_sha256": "869067a4b57eae99db89ffa4ff72b8ca81682b262dd29e4abe18e8fedee4b248",
+  "models": [
+    {
+      "id": "qwen/qwen3.6-35b-a3b",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "qwen",
+      "arch": "qwen35moe",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "loaded",
+      "max_context_length": 262144,
+      "loaded_context_length": 16384,
+      "capabilities": [
+        "tool_use"
+      ]
+    }
+  ]
+}

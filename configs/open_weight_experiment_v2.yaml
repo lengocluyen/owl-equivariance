@@ -1,0 +1,133 @@
+protocol_id: owleq-jws-2026-07-v2
+created_at: "2026-07-28"
+status: "response-channel diagnostic and six-model discovery protocol; confirmatory data gated"
+supersedes_for_open_weight_runs: owleq-jws-2026-07-v1
+
+inference:
+  provider: lmstudio
+  prompt_style: structured_proof
+  answer_field: content
+  max_output_tokens: 1024
+  request_timeout_seconds: 600
+  context_length: 16384
+  structured_output: json_schema_strict
+  tools: disabled
+  seed: 20260725
+  repeat_subset_seed: 20260725
+  temperature: provider_default_or_unsupported
+  primary_repeats: 1
+  raw_response_payload_required: true
+  per_condition_max_invalid_rate: 0.02
+  max_api_error_rate: 0.0
+
+# The catalog key locates the already-installed model. The API identifier is the immutable
+# alias used within this protocol. Exact artifact paths, hashes, quantization and runtime
+# data are captured at execution time because they are properties of the server install.
+models:
+  - provider: lmstudio
+    catalog_key: mistralai/mistral-small-3.2
+    model_id: mistral-small-3.2-owleq-v2
+    reasoning_effort: none
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: openai/gpt-oss-20b
+    model_id: gpt-oss-20b-owleq-v2
+    reasoning_effort: medium
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: google/gemma-4-26b-a4b
+    model_id: gemma-4-26b-a4b-owleq-v2
+    reasoning_effort: medium
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: qwen/qwen3.6-35b-a3b
+    model_id: qwen3.6-35b-a3b-owleq-v2
+    reasoning_effort: medium
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: meta/llama-3.3-70b
+    model_id: llama-3.3-70b-owleq-v2
+    reasoning_effort: none
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: openai/gpt-oss-120b
+    model_id: gpt-oss-120b-owleq-v2
+    reasoning_effort: medium
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+
+datasets:
+  discovery:
+    - id: cl
+      path: data/certified/cl/benchmark.jsonl
+      role: discovery_only
+      base_items: 114
+      conditions: [C0, C1, C2, C4, C4S2, C5, C6, C7, C8]
+    - id: po
+      path: data/certified/po/benchmark.jsonl
+      role: discovery_only
+      base_items: 90
+      conditions: [C0, C1, C2, C4, C4S2, C5, C6, C7, C8]
+  confirmatory:
+    required_sources: 6
+    base_items_per_source: 200
+    required_conditions: [C0, C1, C2, C3, C4, C4S2, C5, C6, C7, C8, C9]
+    status: "blocked until six certified source files are supplied"
+
+stages:
+  diagnostic:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    max_orbits_per_dataset: 20
+    primary_repeats: 1
+    repeat_subset_fraction: 0.0
+    extra_repeats: 0
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0
+  smoke:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    max_orbits_per_dataset: 4
+    primary_repeats: 1
+    repeat_subset_fraction: 0.0
+    extra_repeats: 0
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0
+  discovery:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    primary_repeats: 1
+    repeat_subset_fraction: 0.20
+    extra_repeats: 2
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0
+  confirmatory:
+    planned_base_items: 1200
+    conditions: [C0, C1, C2, C3, C4, C4S2, C5, C6, C7, C8, C9]
+    mean_input_tokens: 2000
+    primary_repeats: 1
+    repeat_subset_fraction: 0.20
+    extra_repeats: 2
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0

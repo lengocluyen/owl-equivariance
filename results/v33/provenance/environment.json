@@ -1,0 +1,15 @@
+{
+  "recorded_at": "2026-08-29T17:04:31Z",
+  "git": { "commit": "unknown", "uncommitted_files": 0 },
+  "os": "Linux 5.15.0-1098-nvidia GNU/Linux",
+  "hardware": { "cpu": "x86_64", "cpu_count": 80 },
+  "java": {
+    "runtime": "openjdk version \"25.0.3\" 2026-04-21 LTS",
+    "owlapi": "4.1.3",
+    "elk": "0.4.3",
+    "jackson": "2.13.5",
+    "compiler_release": "25"
+  },
+  "python": { "version": "Python 3.12.13", "lock_file": "requirements.lock.txt" },
+  "note": "GPU/accelerator details must be added by hand for local-model runs."
+}

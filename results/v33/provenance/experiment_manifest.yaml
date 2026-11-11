@@ -1,0 +1,232 @@
+protocol_id: owleq-jws-2026-08-v33
+created_at: "2026-08-18"
+status: "prospective capacity and generator-runtime amendment; confirmatory model outcomes unseen"
+supersedes_for_confirmatory_runs: owleq-jws-2026-08-v32
+
+amendment:
+  basis: "capacity and design adequacy only; no confirmatory LLM outcomes inspected"
+  runtime_amendment_date: "2026-08-25"
+  runtime_basis: >-
+    Two Uberon builds were externally terminated during deterministic source construction
+    after multiple days and without producing a dataset, exit code, or LLM outcome. Kernel,
+    cgroup, memory, disk, and reboot audits excluded OOM and host restart. GC provenance showed
+    repeated allocation during the former linear-deletion justification implementation.
+  retained_sources:
+    - id: go
+      observed_capacity: 162
+      decision: provisional_capacity_only_rebuild_required_under_certifier_0_2_0
+    - id: envo
+      observed_capacity: 164
+      decision: provisional_capacity_only_rebuild_required_under_certifier_0_2_0
+    - id: schemaorg
+      observed_capacity: 300
+      decision: provisional_capacity_only_rebuild_required_under_certifier_0_2_0
+  changes:
+    - "replace six sources x 200 with at least eight sources x at least 150"
+    - "raise the total confirmatory target from 1,200 to at least 1,320 base items"
+    - "require an immutable pre-inference panel file with dataset and build-report hashes"
+    - "use crossed ontology and nested-base-item random intercepts in the primary GLMM"
+    - "replace linear-deletion justification with deterministic bounded QuickXplain"
+    - "replace full inferred-closure materialization with seeded SHA-256 bottom-k sampling"
+    - "require atomic progress checkpoints and generator diagnostics for new source builds"
+    - "rebuild every confirmatory source with owl-certifier 0.2.0 before panel freeze"
+  unchanged:
+    - inference parameters
+    - six model checkpoints and response fields
+    - lexical conditions and primary contrasts
+    - invalid-response handling
+    - repeat-subset fraction and seed
+
+dataset_generation:
+  certifier_version: "0.2.0"
+  candidate_sampling: SEEDED_SHA256_BOTTOM_K
+  candidate_pool_size: "max(8 * requested_positives, 200)"
+  candidate_rank: "sha256(seed + newline + canonical_query) ascending"
+  justification_algorithm: QUICKXPLAIN
+  justification_call_budget_per_candidate: 256
+  budget_exhaustion_policy: "drop candidate and record it; never emit partial support"
+  reasoner: ELK
+  exact_subset_cache: true
+  reuse_owl_manager_and_working_ontology: true
+  fresh_reasoner_per_uncached_subset: true
+  atomic_progress_checkpoint_required: true
+  progress_stages_required:
+    - ontology_load
+    - el_fragment
+    - profile_and_consistency
+    - candidate_enumeration
+    - justification_search
+    - condition_materialization
+    - context_construction
+    - orbit_emission
+    - artifact_write
+  panel_consistency_rule: >-
+    Every confirmatory source, including GO, ENVO, and Schema.org, must be regenerated and
+    certified with this generator version and these parameters before the panel is frozen.
+
+inference:
+  provider: lmstudio
+  prompt_style: structured_proof
+  answer_field: content
+  max_output_tokens: 1024
+  request_timeout_seconds: 600
+  context_length: 16384
+  structured_output: json_schema_strict
+  tools: disabled
+  seed: 20260725
+  repeat_subset_seed: 20260725
+  temperature: provider_default_or_unsupported
+  primary_repeats: 1
+  raw_response_payload_required: true
+  diagnostic_per_condition_max_invalid_rate: 0.05
+  diagnostic_overall_max_invalid_rate: 0.01
+  per_condition_max_invalid_rate: 0.02
+  overall_max_invalid_rate: 0.02
+  max_api_error_rate: 0.0
+
+models:
+  - provider: lmstudio
+    catalog_key: mistralai/mistral-small-3.2
+    model_id: mistral-small-3.2-owleq-v33
+    reasoning_effort: none
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: openai/gpt-oss-20b
+    model_id: gpt-oss-20b-owleq-v33
+    reasoning_effort: medium
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: google/gemma-4-26b-a4b
+    model_id: gemma-4-26b-a4b-owleq-v33
+    reasoning_effort: none
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: qwen/qwen3.6-35b-a3b
+    model_id: qwen3.6-35b-a3b-owleq-v33
+    reasoning_effort: medium
+    answer_field: reasoning_content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: meta/llama-3.3-70b
+    model_id: llama-3.3-70b-owleq-v33
+    reasoning_effort: none
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+  - provider: lmstudio
+    catalog_key: openai/gpt-oss-120b
+    model_id: gpt-oss-120b-owleq-v33
+    reasoning_effort: medium
+    answer_field: content
+    input_usd_per_mtok: 0
+    output_usd_per_mtok: 0
+
+datasets:
+  discovery:
+    - id: cl
+      path: data/certified/cl/benchmark.jsonl
+      role: discovery_only
+      base_items: 114
+      conditions: [C0, C1, C2, C4, C4S2, C5, C6, C7, C8]
+    - id: po
+      path: data/certified/po/benchmark.jsonl
+      role: discovery_only
+      base_items: 90
+      conditions: [C0, C1, C2, C4, C4S2, C5, C6, C7, C8]
+  confirmatory:
+    minimum_sources: 8
+    minimum_base_items_per_source: 150
+    minimum_total_base_items: 1320
+    excluded_ontology_ids: [cl, po, toy]
+    required_conditions: [C0, C1, C2, C3, C4, C4S2, C5, C6, C7, C8, C9]
+    panel_file_required: true
+    status: "blocked until an eight-source panel passes and is frozen"
+
+analysis:
+  primary:
+    outcome: correct
+    family: binomial
+    link: logit
+    implementation: lme4_glmer_laplace
+    fixed_effects:
+      - condition
+      - task_type
+      - proof_depth_z
+      - context_axioms_z
+      - token_delta_z
+    random_intercepts:
+      - ontology_id
+      - ontology_id:base_item_id
+    per_model_fits: true
+    pooled_condition_by_model_interaction: true
+    reference_condition: C0
+    multiplicity: holm_within_condition_family
+  response_validity:
+    outcome: parsed
+    otherwise_same_as_primary: true
+  sensitivity:
+    - estimator: gee
+      cluster: ontology_id:base_item_id
+      ontology: fixed_effect
+    - estimator: bayes_mixed
+      approximation: variational
+      random_intercepts: [ontology_id, "ontology_id:base_item_id"]
+  power:
+    planned_base_items: 1320
+    minimum_simulated_power: 0.80
+    frozen_from_discovery_only: true
+    posthoc_confirmatory_power_forbidden: true
+
+stages:
+  diagnostic:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    max_orbits_per_dataset: 20
+    primary_repeats: 1
+    repeat_subset_fraction: 0.0
+    extra_repeats: 0
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0
+  smoke:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    max_orbits_per_dataset: 4
+    primary_repeats: 1
+    repeat_subset_fraction: 0.0
+    extra_repeats: 0
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0
+  discovery:
+    datasets:
+      - data/certified/cl/benchmark.jsonl
+      - data/certified/po/benchmark.jsonl
+    primary_repeats: 1
+    repeat_subset_fraction: 0.20
+    extra_repeats: 2
+    characters_per_token: 4.0
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0
+  confirmatory:
+    planned_base_items: 1320
+    conditions: [C0, C1, C2, C3, C4, C4S2, C5, C6, C7, C8, C9]
+    mean_input_tokens: 2000
+    primary_repeats: 1
+    repeat_subset_fraction: 0.20
+    extra_repeats: 2
+    input_safety_factor: 1.25
+    expected_output_tokens: 192
+    hard_cap_usd: 0

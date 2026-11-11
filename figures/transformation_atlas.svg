@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1180" viewBox="0 0 1500 1180">
+  <title>Representative presentations of one OWL subclass problem</title>
+  <desc>Five schematic conditions preserve the two supplied subclass axioms and the entailed query. Graph arrows denote subclass relations. Identifier names, displayed labels, and displayed definitions occupy separate channels. This is not an observed ontology item or model response.</desc>
+  <rect x="0" y="0" width="1500" height="1180" fill="#FFFFFF"/>
+  <g font-family="Arial" fill="#172C42" font-size="28">
+    <text x="30" y="43" font-size="36" font-weight="bold">Same subclass relations, different presentation channels</text>
+    <text x="30" y="84" fill="#526477">Illustrative presentations: five of eleven conditions</text>
+
+    <text x="38" y="132" font-weight="bold">Condition</text>
+    <text x="205" y="132" font-weight="bold">Identifier graph and query</text>
+    <text x="755" y="132" font-weight="bold">Displayed labels</text>
+    <text x="1080" y="132" font-weight="bold">Displayed definitions</text>
+
+    <!-- C0: original channels. Lists correspond to graph nodes left to right. -->
+    <rect x="20" y="150" width="1460" height="168" rx="12" fill="#F8FAFC" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="180" y1="166" x2="180" y2="302" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="710" y1="166" x2="710" y2="302" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="1040" y1="166" x2="1040" y2="302" stroke="#D5DEE7" stroke-width="2"/>
+    <text x="40" y="198" font-size="36" font-weight="bold">C0</text>
+    <text x="40" y="246">Original</text>
+    <rect x="207" y="186" width="128" height="50" rx="8" fill="#FFFFFF" stroke="#566C82" stroke-width="2"/>
+    <rect x="382" y="186" width="128" height="50" rx="8" fill="#FFFFFF" stroke="#566C82" stroke-width="2"/>
+    <rect x="557" y="186" width="128" height="50" rx="8" fill="#FFFFFF" stroke="#566C82" stroke-width="2"/>
+    <line x1="335" y1="211" x2="369" y2="211" stroke="#566C82" stroke-width="3"/>
+    <polygon points="369,204 382,211 369,218" fill="#566C82"/>
+    <line x1="510" y1="211" x2="544" y2="211" stroke="#566C82" stroke-width="3"/>
+    <polygon points="544,204 557,211 544,218" fill="#566C82"/>
+    <text x="271" y="221" text-anchor="middle">Puppy</text>
+    <text x="446" y="221" text-anchor="middle">Dog</text>
+    <text x="621" y="221" text-anchor="middle">Animal</text>
+    <text x="207" y="280">Query:</text>
+    <text x="300" y="280" font-family="Segoe UI Symbol">Puppy ⊑ Animal</text>
+    <text x="755" y="198">Puppy</text>
+    <text x="755" y="239">Dog</text>
+    <text x="755" y="280">Animal</text>
+    <text x="1080" y="198">Young dog</text>
+    <text x="1080" y="239">Domesticated mammal</text>
+    <text x="1080" y="280">Organism in Animalia</text>
+
+    <!-- C1: identifiers become opaque; original labels and definitions remain. -->
+    <rect x="20" y="334" width="1460" height="168" rx="12" fill="#F8FAFC" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="180" y1="350" x2="180" y2="486" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="710" y1="350" x2="710" y2="486" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="1040" y1="350" x2="1040" y2="486" stroke="#D5DEE7" stroke-width="2"/>
+    <text x="40" y="382" font-size="36" font-weight="bold">C1</text>
+    <text x="40" y="426">Opaque</text>
+    <text x="40" y="464">names</text>
+    <rect x="207" y="370" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <rect x="382" y="370" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <rect x="557" y="370" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <line x1="335" y1="395" x2="369" y2="395" stroke="#566C82" stroke-width="3"/>
+    <polygon points="369,388 382,395 369,402" fill="#566C82"/>
+    <line x1="510" y1="395" x2="544" y2="395" stroke="#566C82" stroke-width="3"/>
+    <polygon points="544,388 557,395 544,402" fill="#566C82"/>
+    <text x="271" y="405" text-anchor="middle" fill="#006699">x17</text>
+    <text x="446" y="405" text-anchor="middle" fill="#006699">x42</text>
+    <text x="621" y="405" text-anchor="middle" fill="#006699">x09</text>
+    <text x="207" y="464">Query:</text>
+    <text x="300" y="464" font-family="Segoe UI Symbol" fill="#006699">x17 ⊑ x09</text>
+    <text x="755" y="382">Puppy</text>
+    <text x="755" y="423">Dog</text>
+    <text x="755" y="464">Animal</text>
+    <text x="1080" y="382">Young dog</text>
+    <text x="1080" y="423">Domesticated mammal</text>
+    <text x="1080" y="464">Organism in Animalia</text>
+
+    <!-- C4: opaque identifiers, no annotations. -->
+    <rect x="20" y="518" width="1460" height="168" rx="12" fill="#F8FAFC" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="180" y1="534" x2="180" y2="670" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="710" y1="534" x2="710" y2="670" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="1040" y1="534" x2="1040" y2="670" stroke="#D5DEE7" stroke-width="2"/>
+    <text x="40" y="566" font-size="36" font-weight="bold">C4</text>
+    <text x="40" y="610">Opaque</text>
+    <text x="40" y="648">only</text>
+    <rect x="207" y="554" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <rect x="382" y="554" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <rect x="557" y="554" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <line x1="335" y1="579" x2="369" y2="579" stroke="#566C82" stroke-width="3"/>
+    <polygon points="369,572 382,579 369,586" fill="#566C82"/>
+    <line x1="510" y1="579" x2="544" y2="579" stroke="#566C82" stroke-width="3"/>
+    <polygon points="544,572 557,579 544,586" fill="#566C82"/>
+    <text x="271" y="589" text-anchor="middle" fill="#006699">x17</text>
+    <text x="446" y="589" text-anchor="middle" fill="#006699">x42</text>
+    <text x="621" y="589" text-anchor="middle" fill="#006699">x09</text>
+    <text x="207" y="648">Query:</text>
+    <text x="300" y="648" font-family="Segoe UI Symbol" fill="#006699">x17 ⊑ x09</text>
+    <text x="755" y="607" fill="#5B6874">[removed]</text>
+    <text x="1080" y="607" fill="#5B6874">[removed]</text>
+
+    <!-- C8: opaque identifiers, misleading labels, no definitions. -->
+    <rect x="20" y="702" width="1460" height="168" rx="12" fill="#F8FAFC" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="180" y1="718" x2="180" y2="854" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="710" y1="718" x2="710" y2="854" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="1040" y1="718" x2="1040" y2="854" stroke="#D5DEE7" stroke-width="2"/>
+    <text x="40" y="750" font-size="36" font-weight="bold">C8</text>
+    <text x="40" y="794">Decoy</text>
+    <text x="40" y="832">labels</text>
+    <rect x="207" y="738" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <rect x="382" y="738" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <rect x="557" y="738" width="128" height="50" rx="8" fill="#EAF3FA" stroke="#0077BB" stroke-width="2"/>
+    <line x1="335" y1="763" x2="369" y2="763" stroke="#566C82" stroke-width="3"/>
+    <polygon points="369,756 382,763 369,770" fill="#566C82"/>
+    <line x1="510" y1="763" x2="544" y2="763" stroke="#566C82" stroke-width="3"/>
+    <polygon points="544,756 557,763 544,770" fill="#566C82"/>
+    <text x="271" y="773" text-anchor="middle" fill="#006699">x17</text>
+    <text x="446" y="773" text-anchor="middle" fill="#006699">x42</text>
+    <text x="621" y="773" text-anchor="middle" fill="#006699">x09</text>
+    <text x="207" y="832">Query:</text>
+    <text x="300" y="832" font-family="Segoe UI Symbol" fill="#006699">x17 ⊑ x09</text>
+    <text x="755" y="750" fill="#A14B14">planet</text>
+    <text x="755" y="791" fill="#A14B14">mineral</text>
+    <text x="755" y="832" fill="#A14B14">vehicle</text>
+    <text x="1080" y="791" fill="#5B6874">[removed]</text>
+
+    <!-- C9: misleading identifiers coexist with the original annotations. -->
+    <rect x="20" y="886" width="1460" height="168" rx="12" fill="#F8FAFC" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="180" y1="902" x2="180" y2="1038" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="710" y1="902" x2="710" y2="1038" stroke="#D5DEE7" stroke-width="2"/>
+    <line x1="1040" y1="902" x2="1040" y2="1038" stroke="#D5DEE7" stroke-width="2"/>
+    <text x="40" y="934" font-size="36" font-weight="bold">C9</text>
+    <text x="40" y="978">Decoy</text>
+    <text x="40" y="1016">names</text>
+    <rect x="207" y="922" width="128" height="50" rx="8" fill="#FFF0E6" stroke="#A14B14" stroke-width="2"/>
+    <rect x="382" y="922" width="128" height="50" rx="8" fill="#FFF0E6" stroke="#A14B14" stroke-width="2"/>
+    <rect x="557" y="922" width="128" height="50" rx="8" fill="#FFF0E6" stroke="#A14B14" stroke-width="2"/>
+    <line x1="335" y1="947" x2="369" y2="947" stroke="#566C82" stroke-width="3"/>
+    <polygon points="369,940 382,947 369,954" fill="#566C82"/>
+    <line x1="510" y1="947" x2="544" y2="947" stroke="#566C82" stroke-width="3"/>
+    <polygon points="544,940 557,947 544,954" fill="#566C82"/>
+    <text x="271" y="957" text-anchor="middle" fill="#A14B14">planet</text>
+    <text x="446" y="957" text-anchor="middle" fill="#A14B14">mineral</text>
+    <text x="621" y="957" text-anchor="middle" fill="#A14B14">vehicle</text>
+    <text x="207" y="1016">Query:</text>
+    <text x="300" y="1016" font-family="Segoe UI Symbol" fill="#A14B14">planet ⊑ vehicle</text>
+    <text x="755" y="934">Puppy</text>
+    <text x="755" y="975">Dog</text>
+    <text x="755" y="1016">Animal</text>
+    <text x="1080" y="934">Young dog</text>
+    <text x="1080" y="975">Domesticated mammal</text>
+    <text x="1080" y="1016">Organism in Animalia</text>
+
+    <text x="30" y="1095" font-size="30" font-weight="bold" fill="#17675D">Target in every row: ENTAILED</text>
+    <text x="30" y="1136" fill="#526477">Arrows denote subclass axioms. Annotation lists follow the graph nodes from left to right.</text>
+    <text x="30" y="1170" fill="#526477">Names and annotations are schematic, not an observed ontology item or model response.</text>
+  </g>
+</svg>

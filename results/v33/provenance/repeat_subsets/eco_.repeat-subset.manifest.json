@@ -1,0 +1,227 @@
+{
+  "source": "data/certified_v33/eco/benchmark.jsonl",
+  "source_sha256": "1bee9bf32f6d115e1c332b5a95c22ef11c2a4ec8b87a0139136ff21d08f76339",
+  "output": "data/certified_v33/eco/owleq-jws-2026-08-v33-confirmatory-01.repeat-subset.jsonl",
+  "output_sha256": "a5ddda29c7c4b3f6f69047ceb97425783808eb64707d57f2538c7aba396fd38d",
+  "seed": 20260725,
+  "fraction": 0.2,
+  "available_orbits": 200,
+  "selected_orbits": 40,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C4S2",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "selected_base_item_ids": [
+    "eco:ATOMIC_SUBSUMPTION:008e38150231c904",
+    "eco:ATOMIC_SUBSUMPTION:0099e95ee39323da",
+    "eco:ATOMIC_SUBSUMPTION:028cd6d9e15616cb",
+    "eco:ATOMIC_SUBSUMPTION:105a8524383dc118",
+    "eco:ATOMIC_SUBSUMPTION:12f9f32aa435fda4",
+    "eco:ATOMIC_SUBSUMPTION:1d0e55b973fcd8b2",
+    "eco:ATOMIC_SUBSUMPTION:1d478fc08138f995",
+    "eco:ATOMIC_SUBSUMPTION:1e304d1dc4181fc1",
+    "eco:ATOMIC_SUBSUMPTION:2c9c577323557d97",
+    "eco:ATOMIC_SUBSUMPTION:33a5c5ba9962e662",
+    "eco:ATOMIC_SUBSUMPTION:45e6b3efca6a8d45",
+    "eco:ATOMIC_SUBSUMPTION:5b0ca4edc43cadba",
+    "eco:ATOMIC_SUBSUMPTION:620c2b0cfd532372",
+    "eco:ATOMIC_SUBSUMPTION:66d1eb93ba0e093f",
+    "eco:ATOMIC_SUBSUMPTION:727922f97787d7f4",
+    "eco:ATOMIC_SUBSUMPTION:836440b6cf71fd79",
+    "eco:ATOMIC_SUBSUMPTION:84886d9c39578a20",
+    "eco:ATOMIC_SUBSUMPTION:863eb57c6f88494f",
+    "eco:ATOMIC_SUBSUMPTION:8a511c5b66172d7c",
+    "eco:ATOMIC_SUBSUMPTION:95b12a7f37f1c2d7",
+    "eco:ATOMIC_SUBSUMPTION:9b797eff68a1baf6",
+    "eco:ATOMIC_SUBSUMPTION:9d971e5d57bdd668",
+    "eco:ATOMIC_SUBSUMPTION:9e46c4e7cd7268a8",
+    "eco:ATOMIC_SUBSUMPTION:9f86e1163f7e272b",
+    "eco:ATOMIC_SUBSUMPTION:a9de853ac4198c18",
+    "eco:ATOMIC_SUBSUMPTION:ac46bd32f76fb1ac",
+    "eco:ATOMIC_SUBSUMPTION:ad25b5c8faf928c5",
+    "eco:ATOMIC_SUBSUMPTION:b18b770d1dcd9c08",
+    "eco:ATOMIC_SUBSUMPTION:b74b9c35d90c4be7",
+    "eco:ATOMIC_SUBSUMPTION:bdf2d2c6c41d5ac7",
+    "eco:ATOMIC_SUBSUMPTION:c0c91e189819c40d",
+    "eco:ATOMIC_SUBSUMPTION:c88dc116f339c415",
+    "eco:ATOMIC_SUBSUMPTION:d6efee0e0150ef94",
+    "eco:ATOMIC_SUBSUMPTION:e100a41e9a6e8470",
+    "eco:ATOMIC_SUBSUMPTION:e7164f85c51e5406",
+    "eco:ATOMIC_SUBSUMPTION:e92d06d4cbbabddd",
+    "eco:ATOMIC_SUBSUMPTION:ec04beedd7dbb9fc",
+    "eco:ATOMIC_SUBSUMPTION:f0542a5bfa15293b",
+    "eco:ATOMIC_SUBSUMPTION:faba6668331b0e54",
+    "eco:ATOMIC_SUBSUMPTION:fc7fe576a94fe839"
+  ],
+  "strata": [
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 1,
+      "available_orbits": 25,
+      "selected_orbits": 5
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 20,
+      "selected_orbits": 4
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 12,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 14,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 1,
+      "available_orbits": 25,
+      "selected_orbits": 5
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 20,
+      "selected_orbits": 4
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 12,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 3,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 14,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "eco",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 3,
+      "selected_orbits": 0
+    }
+  ]
+}

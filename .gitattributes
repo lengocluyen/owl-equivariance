@@ -1,0 +1,2 @@
+# Preserve byte-level research hashes; do not normalize frozen text files.
+* -text

@@ -1,0 +1,6 @@
+mistralai/mistral-small-3.2|mistral-small-3.2-owleq-v33|none|content
+openai/gpt-oss-20b|gpt-oss-20b-owleq-v33|medium|content
+google/gemma-4-26b-a4b|gemma-4-26b-a4b-owleq-v33|none|content
+qwen/qwen3.6-35b-a3b|qwen3.6-35b-a3b-owleq-v33|medium|reasoning_content
+meta/llama-3.3-70b|llama-3.3-70b-owleq-v33|none|content
+openai/gpt-oss-120b|gpt-oss-120b-owleq-v33|medium|content

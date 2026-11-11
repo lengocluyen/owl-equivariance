@@ -1,0 +1,265 @@
+{
+  "source": "data/certified_v33/envo/benchmark.jsonl",
+  "source_sha256": "77cd28a1326a13a6ba4f88b00b4cb5b4a8852f915527b6e5c7e864e657e2e799",
+  "output": "data/certified_v33/envo/owleq-jws-2026-08-v33-confirmatory-01.repeat-subset.jsonl",
+  "output_sha256": "09102b1968524065163aecbb80edcba4d826b38c2e5b814fe1efefe9f9242a00",
+  "seed": 20260725,
+  "fraction": 0.2,
+  "available_orbits": 150,
+  "selected_orbits": 30,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C4S2",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "selected_base_item_ids": [
+    "envo:ATOMIC_SUBSUMPTION:14c2823c3910b6f0",
+    "envo:ATOMIC_SUBSUMPTION:1800d8b46897af11",
+    "envo:ATOMIC_SUBSUMPTION:1fd31239d6beac8d",
+    "envo:ATOMIC_SUBSUMPTION:21f565a90711cff7",
+    "envo:ATOMIC_SUBSUMPTION:268ff6a1a2899015",
+    "envo:ATOMIC_SUBSUMPTION:36c0f919122930e0",
+    "envo:ATOMIC_SUBSUMPTION:437a392bea52f1ef",
+    "envo:ATOMIC_SUBSUMPTION:43ea674c41b2ff66",
+    "envo:ATOMIC_SUBSUMPTION:4536b4801aa03def",
+    "envo:ATOMIC_SUBSUMPTION:47e31b1bc73ac21d",
+    "envo:ATOMIC_SUBSUMPTION:49575ffc9b224c21",
+    "envo:ATOMIC_SUBSUMPTION:5941e3ed87f6e8b3",
+    "envo:ATOMIC_SUBSUMPTION:6a1bb0798e19270f",
+    "envo:ATOMIC_SUBSUMPTION:6f62e35bdb44172c",
+    "envo:ATOMIC_SUBSUMPTION:711f58a552ae8d22",
+    "envo:ATOMIC_SUBSUMPTION:71d3e3053d9203bf",
+    "envo:ATOMIC_SUBSUMPTION:77b7c6ae9935928c",
+    "envo:ATOMIC_SUBSUMPTION:8288fb6d83f4ec67",
+    "envo:ATOMIC_SUBSUMPTION:90f9810919121e94",
+    "envo:ATOMIC_SUBSUMPTION:940e01b7f9210566",
+    "envo:ATOMIC_SUBSUMPTION:a08c40ae4b315ad8",
+    "envo:ATOMIC_SUBSUMPTION:a649433787997374",
+    "envo:ATOMIC_SUBSUMPTION:a89203f101621bc0",
+    "envo:ATOMIC_SUBSUMPTION:b683e810e65e2110",
+    "envo:ATOMIC_SUBSUMPTION:b8d60fc2459b38ee",
+    "envo:ATOMIC_SUBSUMPTION:c53d3c76119d7261",
+    "envo:ATOMIC_SUBSUMPTION:c780c925fe4aa6e2",
+    "envo:ATOMIC_SUBSUMPTION:cecd3530a428c05b",
+    "envo:ATOMIC_SUBSUMPTION:d38396d58161e9f6",
+    "envo:ATOMIC_SUBSUMPTION:ecb5d6ac59b544ff"
+  ],
+  "strata": [
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 14,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 19,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 24,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 15,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 14,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 19,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 24,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 15,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 7,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 9,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 7,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "envo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    }
+  ]
+}

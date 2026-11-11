@@ -1,0 +1,139 @@
+{
+  "by_model_condition": [
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C0",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C1",
+      "majority_vote_accuracy": 0.9666666666666667,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 0.9666666666666667,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C2",
+      "majority_vote_accuracy": 0.9333333333333333,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 0.9333333333333333,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C3",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C4",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C4S2",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C5",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C6",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C7",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C8",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    },
+    {
+      "all_valid_rate": 1.0,
+      "complete_items": 30,
+      "condition": "C9",
+      "majority_vote_accuracy": 1.0,
+      "model": "mistral-small-3.2-owleq-v33",
+      "n_items": 30,
+      "per_response_accuracy": 1.0,
+      "per_response_invalid_rate": 0.0,
+      "unanimous_label_rate": 1.0,
+      "unanimous_valid_label_rate": 1.0
+    }
+  ],
+  "expected_repeats": 3,
+  "failures": [],
+  "status": "PASS"
+}

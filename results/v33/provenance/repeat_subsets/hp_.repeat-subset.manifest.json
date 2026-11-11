@@ -1,0 +1,217 @@
+{
+  "source": "data/certified_v33/hp/benchmark.jsonl",
+  "source_sha256": "55dff84b22e37bb486d154f32f7b6d3bc89befaca7f406635c9dc43faccc1f79",
+  "output": "data/certified_v33/hp/owleq-jws-2026-08-v33-confirmatory-01.repeat-subset.jsonl",
+  "output_sha256": "ca558e924cda926e819d78c97388e5cc5e253a1dcaff6abc587918bb01ed7c5b",
+  "seed": 20260725,
+  "fraction": 0.2,
+  "available_orbits": 150,
+  "selected_orbits": 30,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C4S2",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "selected_base_item_ids": [
+    "hp:ATOMIC_SUBSUMPTION:10673be066a28272",
+    "hp:ATOMIC_SUBSUMPTION:18f0fa6a17b7efa5",
+    "hp:ATOMIC_SUBSUMPTION:1d23acac46f3bc21",
+    "hp:ATOMIC_SUBSUMPTION:25b1e2c88f11ba88",
+    "hp:ATOMIC_SUBSUMPTION:29ac6afcddcb98a5",
+    "hp:ATOMIC_SUBSUMPTION:2ccefd52769fd48b",
+    "hp:ATOMIC_SUBSUMPTION:305835c8f52f6020",
+    "hp:ATOMIC_SUBSUMPTION:3548ad73aa7f5bbb",
+    "hp:ATOMIC_SUBSUMPTION:369d03cbb969eac2",
+    "hp:ATOMIC_SUBSUMPTION:409a8ac6ba98a166",
+    "hp:ATOMIC_SUBSUMPTION:468727b619cfa7b5",
+    "hp:ATOMIC_SUBSUMPTION:48c59c17baf9b94b",
+    "hp:ATOMIC_SUBSUMPTION:4a4ea6a3faa93f78",
+    "hp:ATOMIC_SUBSUMPTION:5030ffbcee504f9f",
+    "hp:ATOMIC_SUBSUMPTION:56fd2653c44423ee",
+    "hp:ATOMIC_SUBSUMPTION:58469d96786289db",
+    "hp:ATOMIC_SUBSUMPTION:6ff5e8cba3c3e6fa",
+    "hp:ATOMIC_SUBSUMPTION:774926a36eb6adbb",
+    "hp:ATOMIC_SUBSUMPTION:7802bab1639f95d1",
+    "hp:ATOMIC_SUBSUMPTION:87847e81e8aae7e3",
+    "hp:ATOMIC_SUBSUMPTION:8cf4cdd3010d1af8",
+    "hp:ATOMIC_SUBSUMPTION:8d894eb84cd506c1",
+    "hp:ATOMIC_SUBSUMPTION:9a9ec0a9437a92ca",
+    "hp:ATOMIC_SUBSUMPTION:acca3b825c9b6cd4",
+    "hp:ATOMIC_SUBSUMPTION:ad85312922cb1054",
+    "hp:ATOMIC_SUBSUMPTION:e1388a5087ccf120",
+    "hp:ATOMIC_SUBSUMPTION:ef08778acd24652a",
+    "hp:ATOMIC_SUBSUMPTION:f4af9cc68700a49e",
+    "hp:ATOMIC_SUBSUMPTION:f5a0c93e679227b2",
+    "hp:ATOMIC_SUBSUMPTION:fe8f2369f7984c50"
+  ],
+  "strata": [
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 15,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 8,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 11,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 6,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 15,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 8,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 11,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 6,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "hp",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    }
+  ]
+}

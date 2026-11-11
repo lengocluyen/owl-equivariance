@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "scope": "Integrity, syntax, and packaging only",
+  "scientific_runs_performed": false,
+  "python_files_syntax_checked": 47,
+  "frozen_source_files": 84,
+  "evidence_files": 1554,
+  "omitted_files": 51,
+  "asset_bytes": 150592559,
+  "asset_sha256": "3e7c6382b23de47d329a1299d6b99b03d5210c5b29ba7bc0920348166bd7d9a1"
+}

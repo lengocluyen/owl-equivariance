@@ -1,0 +1,15 @@
+{
+  "protocol_id": "owleq-jws-2026-08-v33",
+  "run_id": "owleq-jws-2026-08-v33-confirmatory-01",
+  "stage": "confirmatory",
+  "context_length": 16384,
+  "max_output_tokens": 1024,
+  "request_timeout_seconds": 600.0,
+  "inference_seed": 20260725,
+  "repeat_subset_seed": 20260725,
+  "repeat_fraction": 0.2,
+  "max_invalid_rate": 0.02,
+  "max_overall_invalid_rate": 0.02,
+  "max_api_error_rate": 0.0,
+  "lmstudio_base_url": "http://127.0.0.1:1234/v1"
+}

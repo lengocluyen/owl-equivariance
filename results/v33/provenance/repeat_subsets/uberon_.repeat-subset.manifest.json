@@ -1,0 +1,283 @@
+{
+  "source": "data/certified_v33/uberon/benchmark.jsonl",
+  "source_sha256": "478ff2d2b6e122e3b589022fe584b383fbbf3dbf8c55dc471f3935c9b5bb81ba",
+  "output": "data/certified_v33/uberon/owleq-jws-2026-08-v33-confirmatory-01.repeat-subset.jsonl",
+  "output_sha256": "3da0486b0fb5543eb47777fd9076090b883f5a080918462877e3cb65aee1ca87",
+  "seed": 20260725,
+  "fraction": 0.2,
+  "available_orbits": 160,
+  "selected_orbits": 32,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C4S2",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "selected_base_item_ids": [
+    "uberon:ATOMIC_SUBSUMPTION:056c6e7e98fa4b21",
+    "uberon:ATOMIC_SUBSUMPTION:060d9bfbd2fa75b7",
+    "uberon:ATOMIC_SUBSUMPTION:0fcfa7333158a6c0",
+    "uberon:ATOMIC_SUBSUMPTION:10e2afeeda5daad6",
+    "uberon:ATOMIC_SUBSUMPTION:132a9b328d83b4ca",
+    "uberon:ATOMIC_SUBSUMPTION:14bcfa9fc178cee6",
+    "uberon:ATOMIC_SUBSUMPTION:19a97f0759d2b29a",
+    "uberon:ATOMIC_SUBSUMPTION:1c88b54522874b03",
+    "uberon:ATOMIC_SUBSUMPTION:1d0e55b973fcd8b2",
+    "uberon:ATOMIC_SUBSUMPTION:1f5b4aecef1fd10e",
+    "uberon:ATOMIC_SUBSUMPTION:26e5b7e150319e00",
+    "uberon:ATOMIC_SUBSUMPTION:48d45f60a6a78d3b",
+    "uberon:ATOMIC_SUBSUMPTION:4a811f92976f9201",
+    "uberon:ATOMIC_SUBSUMPTION:622c76db2e5b475e",
+    "uberon:ATOMIC_SUBSUMPTION:87ec8282153fc578",
+    "uberon:ATOMIC_SUBSUMPTION:8a4ac8f372caad12",
+    "uberon:ATOMIC_SUBSUMPTION:8b7456559af0faac",
+    "uberon:ATOMIC_SUBSUMPTION:8ec723c7c39af338",
+    "uberon:ATOMIC_SUBSUMPTION:8f5f0c59f20dbc5b",
+    "uberon:ATOMIC_SUBSUMPTION:9a951383156dff65",
+    "uberon:ATOMIC_SUBSUMPTION:9b20e1f95ad17f07",
+    "uberon:ATOMIC_SUBSUMPTION:b02dcd04f15b7715",
+    "uberon:ATOMIC_SUBSUMPTION:b11984f2ceddeccb",
+    "uberon:ATOMIC_SUBSUMPTION:b524a19d5c006cf1",
+    "uberon:ATOMIC_SUBSUMPTION:c107bde78115639b",
+    "uberon:ATOMIC_SUBSUMPTION:c1dbe10f860da875",
+    "uberon:ATOMIC_SUBSUMPTION:c6b5192daa9cd186",
+    "uberon:ATOMIC_SUBSUMPTION:dbd585323fd53745",
+    "uberon:ATOMIC_SUBSUMPTION:e10cae7ed37e26b3",
+    "uberon:ATOMIC_SUBSUMPTION:f4c29aa2132fb424",
+    "uberon:ATOMIC_SUBSUMPTION:f5bc65996324e65e",
+    "uberon:ATOMIC_SUBSUMPTION:f957a657d709afb4"
+  ],
+  "strata": [
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 4,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 12,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 15,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 19,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 1,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 11,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 14,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 4,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 11,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 12,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 15,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 19,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 1,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 11,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 14,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 5,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 7,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "uberon",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 2,
+      "selected_orbits": 0
+    }
+  ]
+}

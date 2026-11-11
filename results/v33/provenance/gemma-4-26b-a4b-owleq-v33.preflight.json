@@ -1,0 +1,22 @@
+{
+  "base_url": "http://127.0.0.1:1234/v1",
+  "requested_model": "google/gemma-4-26b-a4b",
+  "weights_sha256": "e5ead18a509d1db93f68f4f6a20b028e04b25820bff78fb8848961d33e2f0aa9",
+  "models": [
+    {
+      "id": "google/gemma-4-26b-a4b",
+      "object": "model",
+      "type": "vlm",
+      "publisher": "google",
+      "arch": "gemma4",
+      "compatibility_type": "gguf",
+      "quantization": "Q4_K_M",
+      "state": "loaded",
+      "max_context_length": 262144,
+      "loaded_context_length": 16384,
+      "capabilities": [
+        "tool_use"
+      ]
+    }
+  ]
+}

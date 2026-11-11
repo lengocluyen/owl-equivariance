@@ -1,0 +1,9 @@
+data/certified_v33/eco/benchmark.jsonl
+data/certified_v33/envo/benchmark.jsonl
+data/certified_v33/foodon/benchmark.jsonl
+data/certified_v33/go/benchmark.jsonl
+data/certified_v33/hp/benchmark.jsonl
+data/certified_v33/mondo/benchmark.jsonl
+data/certified_v33/obi/benchmark.jsonl
+data/certified_v33/so/benchmark.jsonl
+data/certified_v33/uberon/benchmark.jsonl

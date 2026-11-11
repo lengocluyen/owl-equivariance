@@ -1,0 +1,789 @@
+{
+  "amendment_path": "reports/owleq-jws-2026-08-v33-confirmatory-01/provenance/post_failure/continuation_amendment.json",
+  "amendment_sha256": "a4ee17e01b92d92c3cb940ffa69fa578c8c4d9d497df208e2ee163fe85e312ff",
+  "created_utc": "2026-09-07T16:13:50Z",
+  "protected_prediction_prefixes": [
+    {
+      "bytes": 5400607,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gemma-4-26b-a4b-owleq-v33.primary.jsonl",
+      "sha256": "fd8bd5ee4ffa7fc1d36b0fc464f728d752871af4625b31fa2747b6a42e7e17c3"
+    },
+    {
+      "bytes": 5195073,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gemma-4-26b-a4b-owleq-v33.primary.validated.jsonl",
+      "sha256": "b50f9891b48f103e262bf1c69c1e3b73254ed1db998d2010206ea30e7f0320fd"
+    },
+    {
+      "bytes": 2164578,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gemma-4-26b-a4b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "7a8adf471cd9f3f828166fb92f7be483703fafd49977358a9ae33112b0441bbc"
+    },
+    {
+      "bytes": 5260687,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "e5524119fe6a84f385ce055deff3b10148a65eb4d32e78bdf70c2573216656f3"
+    },
+    {
+      "bytes": 5068867,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "c1e3a68fe66894ae17b282a6b5ed50a11dfa81e6d1cece86de91c0c0223b7b7f"
+    },
+    {
+      "bytes": 2104292,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "783555ba5d3261ffd60f493211d38c93290dcdc34b6d88fde17eeee65bb857d6"
+    },
+    {
+      "bytes": 2027188,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "e3a3f66c629cf829145d4b3d46a4d9eacda90ad98c2590d3e13a86e5b6c01d9f"
+    },
+    {
+      "bytes": 2273264,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.lexical.primary.jsonl",
+      "sha256": "3593d2d0830b82988a1dca9c74114013654aa5c48bc3b820435fb7d2f501cc2b"
+    },
+    {
+      "bytes": 2296219,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.lexical.primary.validated.jsonl",
+      "sha256": "6d45aa15a21699a35b8c55dcb3bed374e28d12b4374252ef87524c3dd684ceca"
+    },
+    {
+      "bytes": 2262400,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.majority.primary.jsonl",
+      "sha256": "668d2415792a410ce646f44d32bdd7d3942c9c3e4a39d50df14849bb9aa90fa3"
+    },
+    {
+      "bytes": 2285500,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.majority.primary.validated.jsonl",
+      "sha256": "2c619ec329457a5990921a69ffb3518e978f5e67030b84e6d63c8629edc0c29f"
+    },
+    {
+      "bytes": 5467818,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "7eceef3f3dcd2a578686a96b30ca7311ca53ba4517feb509c5b51dcef5ef12f6"
+    },
+    {
+      "bytes": 5256526,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "06c8fb6eb09a49f0b781ef7448a1be7ada4221ccbff73d3888f97082948ba3fa"
+    },
+    {
+      "bytes": 2191508,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "1927e92eca49a351a4b8666414f5df41bd8dc9611ef112308e8feb802022e236"
+    },
+    {
+      "bytes": 2106180,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "6d698720668c0eb57188ff3f105a332f17f2ed0de7160f1683930a5cb57026d8"
+    },
+    {
+      "bytes": 2332118,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.oracle.primary.jsonl",
+      "sha256": "5174b4cd5460b16e280e56d17d7f6372dc862b715c7effe93cec8fb2de415265"
+    },
+    {
+      "bytes": 2335979,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/eco_.oracle.primary.validated.jsonl",
+      "sha256": "ec59b2e93efb4b664943d598f0d66cd51e53b46a864d074493303718c646b44c"
+    },
+    {
+      "bytes": 3948414,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "1498913e2e6513f08179d34eca117fde29133bcdc592c767db616fb7eb684bf0"
+    },
+    {
+      "bytes": 3807319,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "d6e40675c22fcfa82e996b5a19d19a9ee541412ca5c754a4e84a672f9cb5f271"
+    },
+    {
+      "bytes": 1579480,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "bb6dca03b7eaf2d51d0ec6fb68530a6a1c6b511c6b709da4a9eb0840991a77df"
+    },
+    {
+      "bytes": 1522610,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "05b625501834b83ad3bb2ae1a9c5e77ad578287bccc0baeb92fac5b9f3838083"
+    },
+    {
+      "bytes": 1710522,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.lexical.primary.jsonl",
+      "sha256": "799f3d34be51a68cdc5d547dbb385e0aaa3a8c0c9effcbe1efe772b828b8f987"
+    },
+    {
+      "bytes": 1727828,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.lexical.primary.validated.jsonl",
+      "sha256": "79d781f2d6cfa611de45ee020e7f0e4e74ad5a81925e50e0675fc3f15b80a378"
+    },
+    {
+      "bytes": 1700100,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.majority.primary.jsonl",
+      "sha256": "8c94cf8b6c7e48a7d7daddbb0be35ed4dd6f339ec596c775e4487851a456a040"
+    },
+    {
+      "bytes": 1717425,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.majority.primary.validated.jsonl",
+      "sha256": "49c2a41cf5b6830f7dbf4c0121cf7333115542638787a1a37305ddd5cc09da8a"
+    },
+    {
+      "bytes": 4077260,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "c2ef433b81932afac02d860b27d422015fcce40331f2e5c836aff8a9c4a515c7"
+    },
+    {
+      "bytes": 3922397,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "58446ce7ce4adef341cf9bd07733298a2f9704fc2fad47758f9a85d1807e74da"
+    },
+    {
+      "bytes": 1630822,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "4bd5d0cb0a77c31edd5afd41fc0dda75e73be2e20656652f598d669a852e08ce"
+    },
+    {
+      "bytes": 1568562,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "fa06c75fcc8af82e0b45bc508fdf7438bc93cc4cbd4335caf52c2a55d5731c8e"
+    },
+    {
+      "bytes": 1774724,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.oracle.primary.jsonl",
+      "sha256": "21bf82199c630bf4212eff9bec6df262c880572f10dfe1c17830bdb168072bb1"
+    },
+    {
+      "bytes": 1784481,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/envo_.oracle.primary.validated.jsonl",
+      "sha256": "a4f82a48c2129f48a7af94d323268f5541a36bb5083ec2615cde1525e679ce4c"
+    },
+    {
+      "bytes": 3955254,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "137dacefd0e2ca0a4112ea59e726a2ffda36e9139e4238a0b760eff2505e3e0d"
+    },
+    {
+      "bytes": 3814738,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "8d7571f9a0de053c2e55e341b7e7ee498850ec874b984ca42c83bb84813a2b31"
+    },
+    {
+      "bytes": 1582241,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "7766cfc68d1cd4d6229a6c002151e4a90a509459ae13e9bda9e8a1a1e0f12637"
+    },
+    {
+      "bytes": 1525713,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "9ac5e765bc36c9197b6e6020d97923d11eeae2a2465bb7d963f23656d79b5970"
+    },
+    {
+      "bytes": 1716546,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.lexical.primary.jsonl",
+      "sha256": "fd29ba3ac17431b65f2d3fe0268b4086b241dd7d2998a3447f84d81a5b2fb623"
+    },
+    {
+      "bytes": 1733830,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.lexical.primary.validated.jsonl",
+      "sha256": "de3afc56ad43f5039e8f8ef858e19c85237fe134b4c3ad8ce9c9077a02f31c16"
+    },
+    {
+      "bytes": 1706700,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.majority.primary.jsonl",
+      "sha256": "7d8a50ca0d9a26d65f9a1aa53cc26d4deaa7212869c431ec07d6f037a7215fee"
+    },
+    {
+      "bytes": 1724025,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.majority.primary.validated.jsonl",
+      "sha256": "21d4e579939207da85d9953d4385831d9e16b06ebfba763ca1be926abb7bb276"
+    },
+    {
+      "bytes": 4156008,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "700ba1235d790fab2ce019343b2be9457d4c8a7949c645de3481a7079fad5af8"
+    },
+    {
+      "bytes": 4005376,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "31055ba12ff8300ad4012703b533c573b9e00a46e859b178cf701e3673487710"
+    },
+    {
+      "bytes": 1656981,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "04a71b2cbe8c5db1fd965c7bfe8c655f7d72143abd0eb668df13b8976b212c7b"
+    },
+    {
+      "bytes": 1596897,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "a2e1673b28471adf59d04b1178b4204baa491ec39f9cb1e0ccce14bacf829d91"
+    },
+    {
+      "bytes": 1785988,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.oracle.primary.jsonl",
+      "sha256": "2f691328dd92ad1787cc8c481df343b5161ef190a56cb119f5fdeb45cef921be"
+    },
+    {
+      "bytes": 1797186,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/foodon_.oracle.primary.validated.jsonl",
+      "sha256": "b48b14da15c3849d8474b9d92042614331f362252b633b6043704bd87b3d4bf7"
+    },
+    {
+      "bytes": 3941992,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "f8165755d496a3aa209f82400b15cf6ba855cacaa46d4d3fa393c893a118d5e6"
+    },
+    {
+      "bytes": 3801438,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "0acc32080aa9f3082b462e436fde2bea2573f7f6d4d1824b59b812f7f6d6aa55"
+    },
+    {
+      "bytes": 1576955,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "afdea4d019c82512b1175d0d10a4a40b342e916e9353c164565163befd261438"
+    },
+    {
+      "bytes": 1520499,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "5e7bd2a41aadb5ea3d1f2cf605c40c401377e3ec1f8f4139cf3f7aef12f0e126"
+    },
+    {
+      "bytes": 1702242,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.lexical.primary.jsonl",
+      "sha256": "7e680d8ab92eb2677242499827434a8e81898fce92c0e90a51bc5e51c5b08a3b"
+    },
+    {
+      "bytes": 1719516,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.lexical.primary.validated.jsonl",
+      "sha256": "0083da7723b4f5ca9eefb9cd33fa98ce7caf44b2e6d685eefef331719bf89a9a"
+    },
+    {
+      "bytes": 1693500,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.majority.primary.jsonl",
+      "sha256": "f96961cc9f7399b5f0d01f23c6a5cf4187da96bf9781a9955ade543572ecd602"
+    },
+    {
+      "bytes": 1710825,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.majority.primary.validated.jsonl",
+      "sha256": "5c8a66e126ba676e44c4655c306c8302cd72c6aa90e78f34ba37035f2bef8e06"
+    },
+    {
+      "bytes": 4116634,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "62bc93f4ec8dc2751d849e9f7943963536499eeb699460e6d9d4a3c3a3c6fd48"
+    },
+    {
+      "bytes": 3963946,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "5fbed51cfb1cffd290dfbc2584b1f234ac6c8bbd17e323d1fa0795dc0c639de4"
+    },
+    {
+      "bytes": 1648068,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "bc416f73bf7efefca05f095c6d8b57ea5d6af36a51deb0e89e8d471ba34be2c4"
+    },
+    {
+      "bytes": 1586668,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "708b3c05b8a5273670da89f25c7af86701c0dba7a0a93b5f5f344302fa9497d7"
+    },
+    {
+      "bytes": 1757344,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.oracle.primary.jsonl",
+      "sha256": "92dc9576b595fb4b09ab3246e8d194df030aea4010cbd6f514d503e7995f8850"
+    },
+    {
+      "bytes": 1763691,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/go_.oracle.primary.validated.jsonl",
+      "sha256": "99929705a713009679953524b45a1ae913ea120975fcd847a7db7ae7f937f6cc"
+    },
+    {
+      "bytes": 3941748,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "d6bb51a535e6e32d8084b02c2bcb39c04e49d7917cd611730483a943399e9724"
+    },
+    {
+      "bytes": 3800973,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "19654c553dfe0a0d6ddc2f7a439a4f49b49cf4fe4f743a52dff9d4d8be1155c6"
+    },
+    {
+      "bytes": 1576922,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "eb5d84b587184ae82ce3504e29f933c6f6f43e7cea2a6e9169efa5e8786f800a"
+    },
+    {
+      "bytes": 1520256,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "6eb22537a52a39919f44d688d7434e9e658c2cfa75c3d88f8e60a8b13b56b45b"
+    },
+    {
+      "bytes": 1704226,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.lexical.primary.jsonl",
+      "sha256": "7f6ba783a086bdeaf83c56f5c7a23a4cee503d885688bc608f9317fcd5d036d0"
+    },
+    {
+      "bytes": 1721534,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.lexical.primary.validated.jsonl",
+      "sha256": "64611cdb1370689caf2349c65a8b4a6b2bfe2791aa291a88c5f2aa124b113ebe"
+    },
+    {
+      "bytes": 1693500,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.majority.primary.jsonl",
+      "sha256": "27a51ddcdaf90e842e748bc7dbff8dd6d00260f82dfed90a5abecbac5d996152"
+    },
+    {
+      "bytes": 1710825,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.majority.primary.validated.jsonl",
+      "sha256": "99d7ef7f6b7df772f7c06fc52c342f4eba3c43307192c4231deaf0d2d26ab09b"
+    },
+    {
+      "bytes": 4124661,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "c370a9ef3388dbb8e70dbfa5d775c0ad0cea42c9304802973000b606fbd0758d"
+    },
+    {
+      "bytes": 3966567,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "0aa8534d45ea8f2a7f2d7db9f400866be78dc17bf2b9faed48015f56d768bae9"
+    },
+    {
+      "bytes": 1648319,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "df1f8d232fb251ae603d10915fcec1f4f60134f88db53bb8ad15425519ffade0"
+    },
+    {
+      "bytes": 1584801,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "d27c56be7459e31674a38fcae150e4a88257d3c0cdf19faee86f98ce24df92bd"
+    },
+    {
+      "bytes": 1759654,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.oracle.primary.jsonl",
+      "sha256": "5bb1fcce8724a93f26eef81783d169f6556e1891bdb6b5aee891f862156da3cb"
+    },
+    {
+      "bytes": 1766694,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/hp_.oracle.primary.validated.jsonl",
+      "sha256": "20b6148d41b78111c8358f0ae40da388f9493d253ff6bbed67827b8620d1263d"
+    },
+    {
+      "bytes": 5268905,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "dc194f7e4cb1c6194cb14199af843fddbe6d1b104783c1d43bafd9784c9c0c91"
+    },
+    {
+      "bytes": 5076884,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "d380192861f810c5b0b3262332becbd2eee92b795572b5f12e9c480c61959e60"
+    },
+    {
+      "bytes": 2107760,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "aaea399ce8f534e7db2c501a6407ab81a8da21adc6439c5d5482571cd1051478"
+    },
+    {
+      "bytes": 2031160,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "565f1d8a4f4382ad21aa1c214e008354d8eba0fb2f042f0553129881484a885a"
+    },
+    {
+      "bytes": 2283680,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.lexical.primary.jsonl",
+      "sha256": "f961de469a28e3eeecf95122e0255dcee56628c4f0fa599e1b0d41eb547a0220"
+    },
+    {
+      "bytes": 2306733,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.lexical.primary.validated.jsonl",
+      "sha256": "926b43dad44268df41387741f0a97c222c906fc929c655d305aa80a527a0047c"
+    },
+    {
+      "bytes": 2271200,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.majority.primary.jsonl",
+      "sha256": "e9ee09f88cd9a0e945ea4d75ac93988eb13e777ef3e365078694e07d1757fff7"
+    },
+    {
+      "bytes": 2294300,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.majority.primary.validated.jsonl",
+      "sha256": "964303d509f1f7fecf58858744e0589268c2f0a2ccace9e4f80960f5fdf88fbb"
+    },
+    {
+      "bytes": 5509643,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "dce1e02c5d730d280ae9da57acd066f7529de1a9412861f047979eaef4ed9d8e"
+    },
+    {
+      "bytes": 5303595,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "5d1920ff01253a6a641146349a3542ccc70a2a3a2b861e9f5b8802198cf2d025"
+    },
+    {
+      "bytes": 2190416,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "dd5a6f7b263bbe114769560938269013ba8b9c55db576189975801e97a362e32"
+    },
+    {
+      "bytes": 2106006,
+      "lines": 880,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "36de43572a3b0e1756e573a455bb368ccd2d1edda1a0045f0ade49cf24aae1a9"
+    },
+    {
+      "bytes": 2340368,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.oracle.primary.jsonl",
+      "sha256": "f945fc4e4d1fe3b7d0c43d3dff12cbd667a15804a9446267c536a1e5fddce650"
+    },
+    {
+      "bytes": 2343954,
+      "lines": 2200,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/mondo_.oracle.primary.validated.jsonl",
+      "sha256": "29bfa8a3f554cfb1c6a1a2c5229831263e0e53c9e9dc6473b930b1484b5fc580"
+    },
+    {
+      "bytes": 3945475,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "447a09220bff12318d1148386faef2cbeb49f2caf50137c82f1aad43be718d5d"
+    },
+    {
+      "bytes": 3805212,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "3dbdc89ce2e29abb323b935b2858917720557f8cc5595e6be3b0ea5e9574f2e3"
+    },
+    {
+      "bytes": 1578538,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "9e1d3df1c625c157be738beb028f4ea389530af52cd50eb2440d0c6dd1fd5364"
+    },
+    {
+      "bytes": 1521820,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "9f6aa86e296a6cb396d359e8b9eb283df2154a4b3d1c12f05c1dce14e349b4e8"
+    },
+    {
+      "bytes": 1707390,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.lexical.primary.jsonl",
+      "sha256": "30d4c3c7ddab809064cca128bc621c99e204b7ed059be08892300e48f456acf4"
+    },
+    {
+      "bytes": 1724671,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.lexical.primary.validated.jsonl",
+      "sha256": "025cf2fba3654f83033ed03dbee85b30088cc7bc79560696860914f208e76c98"
+    },
+    {
+      "bytes": 1696800,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.majority.primary.jsonl",
+      "sha256": "acc2a8d4e5349aff8869bf9e1bfdf82b5cf67aab077861e2c4c2f9791a58292d"
+    },
+    {
+      "bytes": 1714125,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.majority.primary.validated.jsonl",
+      "sha256": "6b453de4767786d2bc20a1140d12ac7c92ed8d8f680a3fd45d8b6d47541a8aff"
+    },
+    {
+      "bytes": 4073003,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "19c0add7a79b68fc694747a0710cc60b6c44665d49de524f7c06e230bd0b6fce"
+    },
+    {
+      "bytes": 3918690,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "051c6e7558a79d1700791fc1ff11350323b5331d15c68082c2d07ae2d4914e30"
+    },
+    {
+      "bytes": 1630312,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "7454097097b3db2aa44978c32df3e3bf949b4330231d0607ef037f9a5a2810b9"
+    },
+    {
+      "bytes": 1568160,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "edf4ced7208df1ea578185f1535095d17c592baddeabddd00520167b16ba23a2"
+    },
+    {
+      "bytes": 1762074,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.oracle.primary.jsonl",
+      "sha256": "0c6d84752b0ecdcd2c280650890db2d925e9ec5a4650303b84472105d848e24b"
+    },
+    {
+      "bytes": 1769037,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/obi_.oracle.primary.validated.jsonl",
+      "sha256": "4066649a86349b2ccbbf746109d071ccc6dc62b599cb92fef1008ef50fc7f48b"
+    },
+    {
+      "bytes": 3941956,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "7fcf6bfe89e3ebe0a710e4593417005ff85b7a20f91f368a0f38cfd89984a4d0"
+    },
+    {
+      "bytes": 3801867,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "6ca6eb5a63acf5ad2fb4ce264fb4a1441b70797f50beafccbb1fd9a1159e6b28"
+    },
+    {
+      "bytes": 1576622,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "0a3cc9ea84bc1bb66ffa38cd6328162b352ac2a70a1e5b003ced2c02a40dfac5"
+    },
+    {
+      "bytes": 1520872,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "85e6299a93d332e28fe80effdf03c2e1a3904dc007acc39ed2a135f70aba5c42"
+    },
+    {
+      "bytes": 1704114,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.lexical.primary.jsonl",
+      "sha256": "fc74def17f3e55167f9f9c3731c58a21ec64ab6a9242d98838c1fbc0015f5d57"
+    },
+    {
+      "bytes": 1721412,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.lexical.primary.validated.jsonl",
+      "sha256": "b41aeabd76681cb82e32de28337109fe654d211785745386df634f04bb6f9644"
+    },
+    {
+      "bytes": 1693500,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.majority.primary.jsonl",
+      "sha256": "4a98162e77ac38e474d3adb4d02b79925eeff7ede6ad307f2b8a2ad518d1bc91"
+    },
+    {
+      "bytes": 1710825,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.majority.primary.validated.jsonl",
+      "sha256": "0154deb62b87c32ef3079f2f2a9e209969e72b3863ec027fbd0509224aee18a9"
+    },
+    {
+      "bytes": 4127631,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "95bba870cfcd84587276de589e557174f52f47b69631bb2e1a59031de49442b7"
+    },
+    {
+      "bytes": 3971684,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "ae9d0608db59ac6ad085145790dde4f5c9cebcc13422649c7cec5444d7ff4f8c"
+    },
+    {
+      "bytes": 1644513,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "5cc222910b174c34b6f8407f86d1642fe1d7fbfad3fde9409f2628bc2c1a4588"
+    },
+    {
+      "bytes": 1581063,
+      "lines": 660,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "3945759f6113b8397b036ea47e4578b92491d72836a154bba319946096a457a3"
+    },
+    {
+      "bytes": 1756618,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.oracle.primary.jsonl",
+      "sha256": "5bb4a012762ce2a836b563f70bad75148dac368ed8a8c046eae75a965ce93644"
+    },
+    {
+      "bytes": 1762668,
+      "lines": 1650,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/so_.oracle.primary.validated.jsonl",
+      "sha256": "82ba11e8a5d69fa53e5abbb0fafe62db490596b55d34ae162e744c312621056e"
+    },
+    {
+      "bytes": 4219541,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.gpt-oss-20b-owleq-v33.primary.jsonl",
+      "sha256": "bee59ec33ed8de7ae3f9bb7dd1b2fae1073065fef076e73f0bf90fa298331589"
+    },
+    {
+      "bytes": 4069022,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.gpt-oss-20b-owleq-v33.primary.validated.jsonl",
+      "sha256": "37599f0f47be3ab2d7552688caa184761beaa273a3b6a108f000297127133f38"
+    },
+    {
+      "bytes": 1687804,
+      "lines": 704,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.gpt-oss-20b-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "86dbc1b8ba02d272a89674277f481c15db0a5791618f5299615a139c6cd6b32b"
+    },
+    {
+      "bytes": 1627922,
+      "lines": 704,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.gpt-oss-20b-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "deef30bb7c40bc6f20e455ba182cfec6a9d29eb2cbf0e98c764fc1289516a3d4"
+    },
+    {
+      "bytes": 1831224,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.lexical.primary.jsonl",
+      "sha256": "69be4c0020003769f9f0b4c0b8bf5daa7845f44eb44201c83acdad1f2d81f2b7"
+    },
+    {
+      "bytes": 1849653,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.lexical.primary.validated.jsonl",
+      "sha256": "baf8cdb244c07f4173671a27b560372ed4b72f37cb82d100372604a8045d7b7a"
+    },
+    {
+      "bytes": 1820480,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.majority.primary.jsonl",
+      "sha256": "c22799aa8a55d890078e393a7cc316a6d9dd2e36239fde60d14a4867d5b8ad5c"
+    },
+    {
+      "bytes": 1838960,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.majority.primary.validated.jsonl",
+      "sha256": "c07ff258f996f0c3e6266bf791284c684792cc3194a85f203a9ff6ccd65f19a2"
+    },
+    {
+      "bytes": 4352005,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.mistral-small-3.2-owleq-v33.primary.jsonl",
+      "sha256": "2ad4efb35b901d78f28bdc0da7cd87b65529678c8ae9398bd26b139809c7043e"
+    },
+    {
+      "bytes": 4187185,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.mistral-small-3.2-owleq-v33.primary.validated.jsonl",
+      "sha256": "c172ef5483c391d317a44df844453c8f886d5a7f7a4aad4fb59d70a35158d41a"
+    },
+    {
+      "bytes": 1740419,
+      "lines": 704,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.mistral-small-3.2-owleq-v33.repeats-1-2.jsonl",
+      "sha256": "165e39e50b3db652dafc656ff54d0a7189fe9ac51537b84ec741943fe7a823e0"
+    },
+    {
+      "bytes": 1674103,
+      "lines": 704,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.mistral-small-3.2-owleq-v33.repeats-1-2.validated.jsonl",
+      "sha256": "20342c80f460d1d240dee23b27eb5b502c2053675cbe05440a5fe3a1da9564c4"
+    },
+    {
+      "bytes": 1893520,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.oracle.primary.jsonl",
+      "sha256": "10203de3771d206b5508ba3a6526251ec96285be8ad28345ac055e2105268945"
+    },
+    {
+      "bytes": 1901935,
+      "lines": 1760,
+      "path": "data/predictions/owleq-jws-2026-08-v33-confirmatory-01/uberon_.oracle.primary.validated.jsonl",
+      "sha256": "f4e794d3cb90e96f2b1dc3028865fdbdd386ce61281377c5a2a4b7ab255d519c"
+    }
+  ],
+  "run_id": "owleq-jws-2026-08-v33-confirmatory-01",
+  "schema": "owleq-post-failure-continuation-attempt-v1",
+  "snapshot_totals": {
+    "bytes": 329341258,
+    "files": 129,
+    "lines": 191576
+  },
+  "status": "FROZEN_PRE_ATTEMPT_SNAPSHOT"
+}

@@ -1,0 +1,12 @@
+model,condition,n_items,complete_items,all_valid_rate,unanimous_label_rate,unanimous_valid_label_rate,per_response_accuracy,per_response_invalid_rate,majority_vote_accuracy
+gemma-4-26b-a4b-owleq-v33,C0,40,40,1.0,1.0,1.0,0.95,0.0,0.95
+gemma-4-26b-a4b-owleq-v33,C1,40,40,1.0,1.0,1.0,0.975,0.0,0.975
+gemma-4-26b-a4b-owleq-v33,C2,40,40,1.0,1.0,1.0,0.95,0.0,0.95
+gemma-4-26b-a4b-owleq-v33,C3,40,40,1.0,1.0,1.0,0.9,0.0,0.9
+gemma-4-26b-a4b-owleq-v33,C4,40,40,1.0,1.0,1.0,0.875,0.0,0.875
+gemma-4-26b-a4b-owleq-v33,C4S2,40,40,1.0,1.0,1.0,0.875,0.0,0.875
+gemma-4-26b-a4b-owleq-v33,C5,40,40,1.0,1.0,1.0,0.925,0.0,0.925
+gemma-4-26b-a4b-owleq-v33,C6,40,40,1.0,1.0,1.0,0.875,0.0,0.875
+gemma-4-26b-a4b-owleq-v33,C7,40,40,1.0,1.0,1.0,0.9,0.0,0.9
+gemma-4-26b-a4b-owleq-v33,C8,40,40,1.0,1.0,1.0,0.95,0.0,0.95
+gemma-4-26b-a4b-owleq-v33,C9,40,40,1.0,1.0,1.0,0.85,0.0,0.85

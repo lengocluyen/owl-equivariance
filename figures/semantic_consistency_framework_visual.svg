@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="180mm" height="128.7mm"
+     viewBox="0 0 1200 858" role="img" aria-labelledby="figure-title figure-desc">
+  <title id="figure-title">Semantic-consistency evaluation through equivalent OWL presentations</title>
+  <desc id="figure-desc">An illustrative subclass chain A to B to C has the entailed query A subclass of C. Two of eleven equivalent presentations are shown: renamed X to Y to Z with annotation text retained, and U to V to W with annotation text removed. Only context and query enter the generic LLM component, one variant per call. Structured responses contain a predicted label and cited axiom IDs. The certified target bypasses the model on a dashed teal path. Four symbolic tests compare predictions with the target, compare predictions across eleven variants, reasoner-check cited support for entailed queries, and compare three executions of identical input on a fixed twenty-percent base-problem sample. No model outcomes or neural architecture are depicted.</desc>
+  <!-- Editable line-art, graphs and text. Solid edges in mini-graphs are supplied subclass axioms. -->
+  <rect width="1200" height="858" fill="#ffffff"/>
+
+  <!-- Numbered stages, without large enclosing text blocks. -->
+  <g font-family="Arial" font-size="30" fill="#25384a" font-weight="bold">
+    <text x="76" y="53">OWL problem</text>
+    <text x="372" y="53">Equivalent inputs</text>
+    <text x="774" y="53">LLM calls</text>
+    <text x="1026" y="53">Responses</text>
+  </g>
+  <g fill="#315c8a">
+    <circle cx="43" cy="42" r="20"/>
+    <circle cx="340" cy="42" r="20"/>
+    <circle cx="741" cy="42" r="20"/>
+    <circle cx="992" cy="42" r="20"/>
+  </g>
+  <g font-family="Arial" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    <text x="43" y="52">1</text>
+    <text x="340" y="52">2</text>
+    <text x="741" y="52">3</text>
+    <text x="992" y="52">4</text>
+  </g>
+
+  <!-- (1) Source document: two axioms, and a separate query. -->
+  <path d="M32 96 H226 L260 130 V287 H32 Z" fill="#f3f7fb" stroke="#b4c4d5" stroke-width="2"/>
+  <path d="M226 96 V130 H260" fill="none" stroke="#b4c4d5" stroke-width="2"/>
+  <g stroke="#315c8a" stroke-width="2.6" fill="none">
+    <path d="M92 172 H122"/>
+    <path d="M168 172 H198"/>
+  </g>
+  <g fill="#315c8a">
+    <path d="M126 172 L117 166 L117 178 Z"/>
+    <path d="M202 172 L193 166 L193 178 Z"/>
+  </g>
+  <g fill="#e7f0fa" stroke="#315c8a" stroke-width="2">
+    <circle cx="70" cy="172" r="21"/>
+    <circle cx="146" cy="172" r="21"/>
+    <circle cx="222" cy="172" r="21"/>
+  </g>
+  <g font-family="Arial" font-size="28" fill="#25384a" text-anchor="middle">
+    <text x="70" y="182">A</text>
+    <text x="146" y="182">B</text>
+    <text x="222" y="182">C</text>
+    <text x="109" y="143" font-size="26">a1</text>
+    <text x="185" y="143" font-size="26">a2</text>
+  </g>
+  <path d="M48 211 H244" stroke="#cbd6e0" stroke-width="1.6"/>
+  <g font-family="DejaVu Sans, Cambria Math, serif" font-size="28" fill="#25384a" data-text-region="32,96,260,287">
+    <text x="44" y="256">Query: A ⊑ C</text>
+  </g>
+  <!-- Annotation-tag icon (descriptive text is outside the logical graph). -->
+  <g stroke="#6d7e8e" stroke-width="2" fill="none">
+    <path d="M42 310 H66 L78 322 L66 334 H42 Z"/>
+    <circle cx="64" cy="322" r="3"/>
+  </g>
+  <text x="90" y="331" font-family="Arial" font-size="26" fill="#596c7c">Annotation text</text>
+
+  <!-- Independent symbolic target: illustration is an entailed example, not every study query. -->
+  <rect x="32" y="369" width="228" height="83" rx="7" fill="#edf7f5" stroke="#b1d7d0" stroke-width="1.6"/>
+  <path d="M49 386 L68 378 L87 386 V407 Q87 421 68 431 Q49 421 49 407 Z" fill="#ffffff" stroke="#13877d" stroke-width="2.5"/>
+  <path d="M58 402 L66 410 L79 394" fill="none" stroke="#13877d" stroke-width="3"/>
+  <g font-family="Arial" font-size="26" fill="#13766e" data-text-region="96,370,256,449">
+    <text x="102" y="400" font-weight="bold">ELK target</text>
+    <text x="102" y="438">ENTAILED</text>
+  </g>
+
+  <!-- (2) Two family members. Same topology, consistent replacement of class names. -->
+  <g fill="#ffffff" stroke="#b4c4d5" stroke-width="1.6">
+    <rect x="326" y="92" width="352" height="131" rx="7"/>
+    <rect x="326" y="243" width="352" height="131" rx="7"/>
+  </g>
+  <g font-family="Arial" font-size="26" fill="#315c8a" font-weight="bold">
+    <text x="340" y="126">C1: renamed</text>
+    <text x="340" y="277">C4: renamed, no text</text>
+  </g>
+  <g fill="#e7f0fa" stroke="#315c8a" stroke-width="2">
+    <circle cx="366" cy="165" r="19"/>
+    <circle cx="442" cy="165" r="19"/>
+    <circle cx="518" cy="165" r="19"/>
+    <circle cx="366" cy="316" r="19"/>
+    <circle cx="442" cy="316" r="19"/>
+    <circle cx="518" cy="316" r="19"/>
+  </g>
+  <g stroke="#315c8a" stroke-width="2.5" fill="none">
+    <path d="M385 165 H419"/>
+    <path d="M461 165 H495"/>
+    <path d="M385 316 H419"/>
+    <path d="M461 316 H495"/>
+  </g>
+  <g fill="#315c8a">
+    <path d="M423 165 L414 159 L414 171 Z"/>
+    <path d="M499 165 L490 159 L490 171 Z"/>
+    <path d="M423 316 L414 310 L414 322 Z"/>
+    <path d="M499 316 L490 310 L490 322 Z"/>
+  </g>
+  <g font-family="Arial" font-size="28" fill="#25384a" text-anchor="middle">
+    <text x="366" y="175">X</text>
+    <text x="442" y="175">Y</text>
+    <text x="518" y="175">Z</text>
+    <text x="366" y="326">U</text>
+    <text x="442" y="326">V</text>
+    <text x="518" y="326">W</text>
+  </g>
+  <!-- Retained / removed annotation page, with redundant shape encoding. -->
+  <g stroke="#6d7e8e" stroke-width="2" fill="#f8fafb">
+    <rect x="579" y="140" width="47" height="48" rx="3"/>
+    <rect x="579" y="291" width="47" height="48" rx="3"/>
+  </g>
+  <g stroke="#8a98a4" stroke-width="2.2">
+    <path d="M588 151 H616 M588 161 H616 M588 171 H608"/>
+    <path d="M588 302 H616 M588 312 H616 M588 322 H608"/>
+    <path d="M571 343 L635 286" stroke="#9d6647" stroke-width="3"/>
+  </g>
+  <g font-family="Arial" font-size="26" fill="#596c7c">
+    <text x="556" y="210">retained</text>
+    <text x="548" y="361">removed</text>
+  </g>
+  <g font-family="DejaVu Sans, Cambria Math, serif" font-size="27" fill="#25384a">
+    <text x="342" y="212">X ⊑ Z ?</text>
+    <text x="342" y="363">U ⊑ W ?</text>
+  </g>
+  <g font-family="Arial" font-size="26" fill="#596c7c" text-anchor="middle">
+    <text x="502" y="409">+ 9 other conditions</text>
+  </g>
+  <text x="502" y="446" font-family="DejaVu Sans, Cambria Math, serif" font-size="30"
+        text-anchor="middle" fill="#13766e">O ⊨ α  ⇔  O′ ⊨ α′</text>
+
+  <!-- Context/query transformations and single-input selection. -->
+  <g stroke="#315c8a" stroke-width="2.8" fill="none">
+    <path d="M260 192 H295 V158 H314"/>
+    <path d="M295 192 V309 H314"/>
+    <path d="M678 309 H703 V216 H741"/>
+  </g>
+  <g fill="#315c8a">
+    <path d="M324 158 L311 151 L311 165 Z"/>
+    <path d="M324 309 L311 302 L311 316 Z"/>
+    <path d="M753 216 L740 209 L740 223 Z"/>
+  </g>
+
+  <!-- (3) Generic model component, not a claimed neural architecture. -->
+  <rect x="758" y="153" width="121" height="126" rx="9" fill="#f3f7fb" stroke="#315c8a" stroke-width="2.6"/>
+  <rect x="775" y="170" width="87" height="92" rx="4" fill="#ffffff" stroke="#c2cedb" stroke-width="1.8"/>
+  <g stroke="#315c8a" stroke-width="2.8">
+    <path d="M774 139 V153 M797 139 V153 M820 139 V153 M843 139 V153 M866 139 V153"/>
+    <path d="M774 279 V293 M797 279 V293 M820 279 V293 M843 279 V293 M866 279 V293"/>
+    <path d="M744 169 H758 M744 192 H758 M744 239 H758 M744 262 H758"/>
+    <path d="M879 169 H893 M879 192 H893 M879 239 H893 M879 262 H893"/>
+  </g>
+  <text x="818" y="228" font-family="Arial" font-size="34" font-weight="bold"
+        text-anchor="middle" fill="#315c8a">LLM</text>
+  <g font-family="Arial" font-size="26" fill="#596c7c" text-anchor="middle">
+    <text x="818" y="338">One variant</text>
+    <text x="818" y="374">per call</text>
+  </g>
+  <path d="M895 216 H956" stroke="#315c8a" stroke-width="2.8"/>
+  <path d="M969 216 L954 209 L954 223 Z" fill="#315c8a"/>
+
+  <!-- (4) Structured response sheet: symbolic predictions, no invented results. -->
+  <path d="M976 116 H1142 L1170 144 V335 H976 Z" fill="#ffffff" stroke="#b4c4d5" stroke-width="2"/>
+  <path d="M1142 116 V144 H1170" stroke="#b4c4d5" stroke-width="2" fill="none"/>
+  <g font-family="Arial" font-size="28" fill="#25384a" data-text-region="984,127,1164,330">
+    <text x="994" y="169" font-weight="bold">{ }</text>
+    <text x="994" y="221">label: ŷ</text>
+    <text x="994" y="273">axioms: S</text>
+  </g>
+  <path d="M994 292 H1085" stroke="#cf8b58" stroke-width="4"/>
+  <text x="1073" y="375" font-family="Arial" font-size="26" text-anchor="middle" fill="#596c7c">Cited IDs</text>
+
+  <!-- Solid response fan-out; targets have a separate, dashed path. -->
+  <path d="M1156 335 V508 H100" fill="none" stroke="#315c8a" stroke-width="2.6"/>
+  <text x="700" y="488" text-anchor="middle" font-family="Arial" font-size="28"
+        fill="#315c8a">Evaluate structured responses</text>
+  <g stroke="#315c8a" stroke-width="2.6" fill="none">
+    <path d="M100 508 V536"/>
+    <path d="M441 508 V536"/>
+    <path d="M740 508 V536"/>
+    <path d="M1040 508 V536"/>
+  </g>
+  <g fill="#315c8a">
+    <path d="M100 546 L93 533 L107 533 Z"/>
+    <path d="M441 546 L434 533 L448 533 Z"/>
+    <path d="M740 546 L733 533 L747 533 Z"/>
+    <path d="M1040 546 L1033 533 L1047 533 Z"/>
+  </g>
+  <!-- White crossing clearance prevents the scoring reference joining the response bus. -->
+  <path d="M222 492 V524" stroke="#ffffff" stroke-width="8" fill="none"/>
+  <path d="M222 452 V603" fill="none" stroke="#13877d" stroke-width="2.5" stroke-dasharray="7 6"/>
+  <path d="M222 612 L215 600 L229 600 Z" fill="#13877d"/>
+  <text x="32" y="490" font-family="Arial" font-size="26" fill="#13766e">Certified y</text>
+
+  <!-- Four complementary tests: miniature diagrams, not empirical mini-charts. -->
+  <g stroke="#d8e0e7" stroke-width="1.6">
+    <path d="M310 562 V797 M606 562 V797 M902 562 V797"/>
+  </g>
+  <g font-family="Arial" font-size="28" font-weight="bold" fill="#25384a">
+    <text x="32" y="570">Correctness</text>
+    <text x="330" y="570">Consistency</text>
+    <text x="628" y="570">Support validity</text>
+    <text x="923" y="570">Repeatability</text>
+  </g>
+
+  <!-- Prediction / certified target comparison. -->
+  <g stroke-width="2">
+    <rect x="57" y="613" width="70" height="73" rx="5" fill="#f3f7fb" stroke="#315c8a"/>
+    <rect x="187" y="613" width="70" height="73" rx="5" fill="#edf7f5" stroke="#13877d"/>
+  </g>
+  <g font-family="DejaVu Sans, Cambria Math, serif" font-size="36" text-anchor="middle">
+    <text x="92" y="662" fill="#315c8a">ŷ</text>
+    <text x="222" y="662" fill="#13766e">y</text>
+    <text x="157" y="660" fill="#25384a">≟</text>
+  </g>
+  <g font-family="Arial" font-size="26" fill="#596c7c" text-anchor="middle" data-text-region="24,560,296,803">
+    <text x="157" y="740">Prediction vs target</text>
+    <text x="157" y="780">All-condition success</text>
+  </g>
+
+  <!-- Same-family prediction slips, corresponding to different presentations. -->
+  <g fill="#f3f7fb" stroke="#315c8a" stroke-width="2">
+    <rect x="340" y="613" width="65" height="73" rx="5"/>
+    <rect x="425" y="613" width="65" height="73" rx="5"/>
+    <rect x="510" y="613" width="65" height="73" rx="5"/>
+  </g>
+  <g font-family="DejaVu Sans, Cambria Math, serif" font-size="30" fill="#315c8a" text-anchor="middle">
+    <text x="372" y="661">ŷ₀</text>
+    <text x="457" y="661">…</text>
+    <text x="542" y="661">ŷ₁₀</text>
+  </g>
+  <path d="M372 694 V709 H542 V694" stroke="#315c8a" stroke-width="2" fill="none"/>
+  <text x="457" y="746" font-family="DejaVu Sans, Cambria Math, serif" font-size="30"
+        fill="#25384a" text-anchor="middle">ŷ₀ ≟ … ≟ ŷ₁₀</text>
+  <text x="457" y="788" font-family="Arial" font-size="26" fill="#596c7c" text-anchor="middle">Across 11 variants</text>
+
+  <!-- Cited axiom subset (orange) checked by a symbolic reasoner (teal). -->
+  <g stroke="#b4723f" stroke-width="2.6" fill="none">
+    <path d="M660 643 H682 M720 643 H742"/>
+    <path d="M780 643 H798"/>
+  </g>
+  <g fill="#b4723f">
+    <path d="M686 643 L677 637 L677 649 Z"/>
+    <path d="M746 643 L737 637 L737 649 Z"/>
+    <path d="M807 643 L796 637 L796 649 Z"/>
+  </g>
+  <g fill="#fff5eb" stroke="#b4723f" stroke-width="2">
+    <circle cx="642" cy="643" r="18"/>
+    <circle cx="702" cy="643" r="18"/>
+    <circle cx="762" cy="643" r="18"/>
+  </g>
+  <g font-family="Arial" font-size="26" fill="#8b552d" text-anchor="middle">
+    <text x="642" y="652">U</text>
+    <text x="702" y="652">V</text>
+    <text x="762" y="652">W</text>
+  </g>
+  <path d="M814 619 L836 609 L858 619 V644 Q858 662 836 675 Q814 662 814 644 Z"
+        fill="#edf7f5" stroke="#13877d" stroke-width="2.3"/>
+  <text x="836" y="652" font-family="Arial" font-size="28" text-anchor="middle" fill="#13766e">?</text>
+  <text x="836" y="708" font-family="Arial" font-size="26" text-anchor="middle" fill="#13766e">ELK</text>
+  <text x="704" y="746" font-family="DejaVu Sans, Cambria Math, serif" font-size="30"
+        fill="#25384a" text-anchor="middle">S ⊨ α ?</text>
+  <text x="752" y="788" font-family="Arial" font-size="26" fill="#596c7c" text-anchor="middle">Entailed queries only</text>
+
+  <!-- Same input fan-out into three executions (no actual output labels shown). -->
+  <path d="M932 641 H966 L978 653 V700 H932 Z" fill="#f3f7fb" stroke="#315c8a" stroke-width="2"/>
+  <path d="M943 657 H964 M943 669 H964 M943 681 H959" stroke="#315c8a" stroke-width="2"/>
+  <g stroke="#315c8a" stroke-width="2" fill="none">
+    <path d="M978 670 H1007 V630 H1042"/>
+    <path d="M1007 670 H1042"/>
+    <path d="M1007 670 V710 H1042"/>
+  </g>
+  <g fill="#315c8a">
+    <path d="M1050 630 L1040 624 L1040 636 Z"/>
+    <path d="M1050 670 L1040 664 L1040 676 Z"/>
+    <path d="M1050 710 L1040 704 L1040 716 Z"/>
+  </g>
+  <g fill="#ffffff" stroke="#315c8a" stroke-width="1.8">
+    <rect x="1054" y="610" width="90" height="35" rx="4"/>
+    <rect x="1054" y="653" width="90" height="35" rx="4"/>
+    <rect x="1054" y="696" width="90" height="35" rx="4"/>
+  </g>
+  <g font-family="DejaVu Sans, Cambria Math, serif" font-size="28" fill="#315c8a" text-anchor="middle">
+    <text x="1099" y="636">ŷ¹</text>
+    <text x="1099" y="679">ŷ²</text>
+    <text x="1099" y="722">ŷ³</text>
+    <text x="1050" y="760" font-size="30" fill="#25384a">ŷ¹ ≟ ŷ² ≟ ŷ³</text>
+  </g>
+  <text x="1050" y="788" font-family="Arial" font-size="26" fill="#596c7c" text-anchor="middle">3 runs; 20% sample</text>
+
+  <path d="M24 813 H1176" stroke="#d8e0e7" stroke-width="1.4"/>
+  <text x="24" y="836" font-family="Arial" font-size="26" fill="#596c7c">Illustrative graphs; symbolic predictions. Agreement does not imply correctness.</text>
+</svg>

@@ -1,0 +1,243 @@
+{
+  "source": "data/certified_v33/mondo/benchmark.jsonl",
+  "source_sha256": "3dc2fae213f01fb077fc4c4df723326a6d998b5963389e279d2fd13c6072ea3f",
+  "output": "data/certified_v33/mondo/owleq-jws-2026-08-v33-confirmatory-01.repeat-subset.jsonl",
+  "output_sha256": "a5c718614713baf1dd33f1b24e830627a19d8699986139da9af591bffc5660c2",
+  "seed": 20260725,
+  "fraction": 0.2,
+  "available_orbits": 200,
+  "selected_orbits": 40,
+  "conditions": [
+    "C0",
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C4S2",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9"
+  ],
+  "selected_base_item_ids": [
+    "mondo:ATOMIC_SUBSUMPTION:07d7649d1c5fbd3e",
+    "mondo:ATOMIC_SUBSUMPTION:0e52aa7c95e5e9bc",
+    "mondo:ATOMIC_SUBSUMPTION:120b5f7d5c0f4b15",
+    "mondo:ATOMIC_SUBSUMPTION:1359a1db6d0857ba",
+    "mondo:ATOMIC_SUBSUMPTION:14d952dd5714c2aa",
+    "mondo:ATOMIC_SUBSUMPTION:18264baad5d9c206",
+    "mondo:ATOMIC_SUBSUMPTION:18359b0fc0b7e25f",
+    "mondo:ATOMIC_SUBSUMPTION:24557bb8de6a2f6d",
+    "mondo:ATOMIC_SUBSUMPTION:28f5d8f21c155ada",
+    "mondo:ATOMIC_SUBSUMPTION:3e5079f9dc8cec7d",
+    "mondo:ATOMIC_SUBSUMPTION:3f400eb5e74a99f9",
+    "mondo:ATOMIC_SUBSUMPTION:4ea510856890eb49",
+    "mondo:ATOMIC_SUBSUMPTION:525d9984f6ea6a66",
+    "mondo:ATOMIC_SUBSUMPTION:56bcaa5f3373f490",
+    "mondo:ATOMIC_SUBSUMPTION:5c32deed2c3b581b",
+    "mondo:ATOMIC_SUBSUMPTION:6173786c583d94ca",
+    "mondo:ATOMIC_SUBSUMPTION:6c03290122d5a391",
+    "mondo:ATOMIC_SUBSUMPTION:6f1744c3b95056df",
+    "mondo:ATOMIC_SUBSUMPTION:7bfa5525d6334691",
+    "mondo:ATOMIC_SUBSUMPTION:8843e28d70da7356",
+    "mondo:ATOMIC_SUBSUMPTION:918f9e5ad7036d1b",
+    "mondo:ATOMIC_SUBSUMPTION:952a40728a77bf22",
+    "mondo:ATOMIC_SUBSUMPTION:98c2d4657e3b284f",
+    "mondo:ATOMIC_SUBSUMPTION:a1f41882a95eec8a",
+    "mondo:ATOMIC_SUBSUMPTION:ad22632bbfe4b6fa",
+    "mondo:ATOMIC_SUBSUMPTION:b080ece6dd516a51",
+    "mondo:ATOMIC_SUBSUMPTION:b75269ad428112a8",
+    "mondo:ATOMIC_SUBSUMPTION:b9866469c59f2ada",
+    "mondo:ATOMIC_SUBSUMPTION:bd318fb6c1502306",
+    "mondo:ATOMIC_SUBSUMPTION:c2360bf5ea2c5f18",
+    "mondo:ATOMIC_SUBSUMPTION:ca748d6cebb1a075",
+    "mondo:ATOMIC_SUBSUMPTION:cc086a65161f06c3",
+    "mondo:ATOMIC_SUBSUMPTION:cfa079676e1efd94",
+    "mondo:ATOMIC_SUBSUMPTION:d45b458564db001c",
+    "mondo:ATOMIC_SUBSUMPTION:d56a0f1c2ef732da",
+    "mondo:ATOMIC_SUBSUMPTION:e29f233802b0201c",
+    "mondo:ATOMIC_SUBSUMPTION:ee3945ecd5624901",
+    "mondo:ATOMIC_SUBSUMPTION:f0f4f9d811984f23",
+    "mondo:ATOMIC_SUBSUMPTION:f1d1596e2968c2e1",
+    "mondo:ATOMIC_SUBSUMPTION:faec9399b6c34705"
+  ],
+  "strata": [
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 12,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 1,
+      "available_orbits": 25,
+      "selected_orbits": 5
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 12,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 13,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 12,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 7,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 6,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 10,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 12,
+      "available_orbits": 1,
+      "selected_orbits": 0
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 1,
+      "available_orbits": 25,
+      "selected_orbits": 5
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 2,
+      "available_orbits": 12,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 3,
+      "available_orbits": 13,
+      "selected_orbits": 3
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 4,
+      "available_orbits": 12,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 5,
+      "available_orbits": 7,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 6,
+      "available_orbits": 6,
+      "selected_orbits": 1
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 7,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 8,
+      "available_orbits": 10,
+      "selected_orbits": 2
+    },
+    {
+      "ontology_id": "mondo",
+      "task_type": "ATOMIC_SUBSUMPTION",
+      "label": "NOT_ENTAILED",
+      "proof_depth": 9,
+      "available_orbits": 3,
+      "selected_orbits": 1
+    }
+  ]
+}
